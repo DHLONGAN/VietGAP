@@ -1,0 +1,42 @@
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\LanguageVN.xml
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\ReportPUL2.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\ReportPUL2.pdb
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNConfig.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNLibrary.SYS.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNConfig.pdb
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNLibrary.SYS.pdb
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL2.csprojResolveAssemblyReference.cache
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL2.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL2.pdb
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\LanguageVN.xml
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\ReportPUL2.dll
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\ReportPUL2.pdb
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNConfig.dll
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNConfig.pdb
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL2.csprojResolveAssemblyReference.cache
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL2.dll
+D:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL2.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\LanguageVN.xml
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\ReportPUL2.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\ReportPUL2.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\bin\Debug\TNLibrary.SYS.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\LanguageVN.xml
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\ReportPUL2.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\ReportPUL2.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\bin\Debug\TNLibrary.SYS.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\ReportPUL\obj\Debug\ReportPUL2.pdb

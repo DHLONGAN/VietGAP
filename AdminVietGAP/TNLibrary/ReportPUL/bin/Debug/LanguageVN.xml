@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language>
+  <MENU>
+    <MessageID>MENUMAIN_SYSTEM</MessageID>
+    <Display>Hệ Thống</Display>
+  </MENU>
+  <MENU>
+    <MessageID>MENU_SYSTEM_CONNECTDATABASE</MessageID>
+    <Display>Kết nối CSDL</Display>
+  </MENU>
+  <frm_ConnectServer>
+    <MessageID>Mess01</MessageID>
+    <Display>Kết nối thành công</Display>
+  </frm_ConnectServer>
+</Language>

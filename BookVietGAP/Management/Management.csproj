@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDE8641D-207D-411C-8195-E3BBEF95B4A9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookVietGAP</RootNamespace>
+    <AssemblyName>BookVietGAP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ajax.aspx" />
+    <Content Include="Book.aspx" />
+    <Content Include="CSS\bootstrap-datepicker3.css" />
+    <Content Include="CSS\bt.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Img\bg-row-bak.png" />
+    <Content Include="Img\bg-row-left.png" />
+    <Content Include="Img\bg-row-right.png" />
+    <Content Include="Img\bg-row.png" />
+    <Content Include="Img\bg-row1.png" />
+    <Content Include="Img\Book\bao-cao-chi-phi.png" />
+    <Content Include="Img\Book\bao-cao-san-xuat.png" />
+    <Content Include="Img\Book\Congviecchualam.png" />
+    <Content Include="Img\Book\Congviecchuathuchien.png" />
+    <Content Include="Img\Book\congviechientai.png" />
+    <Content Include="Img\Book\Congviectuannay.png" />
+    <Content Include="Img\Book\danh-sach-cay-trong.png" />
+    <Content Include="Img\Book\kiem-ke-ton-kho.png" />
+    <Content Include="Img\Book\kiem-tra-danh-gia.png" />
+    <Content Include="Img\Book\kiemtra-thietbi_icon.png" />
+    <Content Include="Img\Book\mua-phan-bon.png" />
+    <Content Include="Img\Book\mua-thuoc-bvtv.png" />
+    <Content Include="Img\Book\quan-ly-dat.png" />
+    <Content Include="Img\Book\quanlyuphan.png" />
+    <Content Include="Img\Book\su-dung-phan-bon.png" />
+    <Content Include="Img\Book\su-dung-thuoc-bvtv.png" />
+    <Content Include="Img\Book\thu-hoach-xuat-ban.png" />
+    <Content Include="Img\Book\tra-cuu-giong.png" />
+    <Content Include="Img\Book\tra-cuu-ma-truy-vet.png" />
+    <Content Include="Img\Book\tra-cuu-phan-thuoc.png" />
+    <Content Include="Img\Book\tra-cuu-sau-benh.png" />
+    <Content Include="Img\Book\xu-ly-chat-thai.png" />
+    <Content Include="Img\Book\xu-ly-giong.png" />
+    <Content Include="Img\br.png" />
+    <Content Include="Img\br2.png" />
+    <Content Include="Img\bt-login.png" />
+    <Content Include="Img\icon\cay-trong-cua-ban.png" />
+    <Content Include="Img\icon\congvieccanlam.png" />
+    <Content Include="Img\icon\danh-muc-bao-cao.png" />
+    <Content Include="Img\icon\danh-muc-tra-cuu.png" />
+    <Content Include="Img\login-bg.png" />
+    <Content Include="Img\login-bgf.png" />
+    <Content Include="Img\login-head.png" />
+    <Content Include="Img\Main_Sub_Chualam.png" />
+    <Content Include="Img\Main_Sub_lich.png" />
+    <Content Include="Img\Main_Sub_moi.png" />
+    <Content Include="Img\Main_Sub_Selam.png" />
+    <Content Include="Img\Menu\Menu_Báo Cáo.png" />
+    <Content Include="Img\Menu\Menu_Báo Cáo_active.png" />
+    <Content Include="Img\Menu\Menu_Bản Đồ.png" />
+    <Content Include="Img\Menu\Menu_Bản Đồ_active.png" />
+    <Content Include="Img\Menu\Menu_Nhật Ký.png" />
+    <Content Include="Img\Menu\Menu_Nhật Ký_active.png" />
+    <Content Include="Img\Menu\Menu_Tin Tức.png" />
+    <Content Include="Img\Menu\Menu_Tin Tức_active.png" />
+    <Content Include="Img\Menu\Menu_Tra Cứu.png" />
+    <Content Include="Img\Menu\Menu_Tra Cứu_active.png" />
+    <Content Include="Img\Menu\Menu_Tài Khoản.png" />
+    <Content Include="Img\Menu\Menu_Tài Khoản_active.png" />
+    <Content Include="Img\Menu_bg.png" />
+    <Content Include="Img\Menu_space.png" />
+    <Content Include="Img\on-off.png" />
+    <Content Include="Img\user.png" />
+    <Content Include="JS\bootstrap-datepicker.js" />
+    <Content Include="JS\Process.js" />
+    <Content Include="JS\info.js" />
+    <Content Include="JS\test.js" />
+    <Content Include="JS\data.js" />
+    <Content Include="Lib\bootstrap\css\bootstrap-select.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap-select.min.css" />
+    <Content Include="CSS\custom.css" />
+    <Content Include="CSS\font-awesome.min.css" />
+    <Content Include="CSS\responsive-calendar.css" />
+    <Content Include="fonts\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Img\bg.png" />
+    <Content Include="Img\icon\QUAN-LY-DAT-GIONG.png" />
+    <Content Include="Img\icon\QUAN-LY-SAN-XUAT.png" />
+    <Content Include="Img\icon\THU-HOACH-XUAT-BAN.png" />
+    <Content Include="Img\ic_mylocation.png" />
+    <Content Include="Lib\bootstrap\js\bootstrap-select.js" />
+    <Content Include="Lib\bootstrap\js\bootstrap-select.min.js" />
+    <Content Include="JS\custom.js" />
+    <Content Include="JS\responsive-calendar.js" />
+    <Content Include="JS\responsive-calendar.min.js" />
+    <Content Include="JS\shapesSave.js" />
+    <Content Include="Lib\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Lib\bootstrap\js\bootstrap.js" />
+    <Content Include="Lib\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Lib\bootstrap\js\npm.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Map.aspx" />
+    <Content Include="Report.aspx" />
+    <Content Include="ReportPDF\RpCost.aspx" />
+    <Content Include="ReportPDF\RpProductionDaybook.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="SubSearch\ajax.aspx" />
+    <Content Include="SubSearch\seed.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ajax.aspx.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax.aspx.designer.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Map.aspx.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Map.aspx.designer.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPDF\RpCost.aspx.cs">
+      <DependentUpon>RpCost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportPDF\RpCost.aspx.designer.cs">
+      <DependentUpon>RpCost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPDF\RpProductionDaybook.aspx.cs">
+      <DependentUpon>RpProductionDaybook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportPDF\RpProductionDaybook.aspx.designer.cs">
+      <DependentUpon>RpProductionDaybook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteBook.Master.cs">
+      <DependentUpon>SiteBook.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteBook.Master.designer.cs">
+      <DependentUpon>SiteBook.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SubSearch\ajax.aspx.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubSearch\seed.aspx.cs">
+      <DependentUpon>seed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubSearch\seed.aspx.designer.cs">
+      <DependentUpon>seed.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Lib\bootstrap\css\bootstrap-select.css.map" />
+    <None Include="Lib\bootstrap\js\bootstrap-select.js.map" />
+    <None Include="Lib\bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="Lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TNConfig\TNConfig.csproj">
+      <Project>{DFF061E9-230B-46B7-BCAD-E342E40F8177}</Project>
+      <Name>TNConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.Search\TNLibrary.Search.csproj">
+      <Project>{CD975E87-2506-49A3-A711-3B2C37E1F92C}</Project>
+      <Name>TNLibrary.Search</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.SYS\TNLibrary.SYS.csproj">
+      <Project>{821E12E5-D3D5-4DBD-AF0A-594042CB7064}</Project>
+      <Name>TNLibrary.SYS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibraryBook\TNLibrary.Book.csproj">
+      <Project>{FDD5BBBE-A7C2-4DF5-B8F1-3FFE2EFE0873}</Project>
+      <Name>TNLibrary.Book</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteBook.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>32213</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

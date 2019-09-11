@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Folder>
+    <description>Hop Tac Xa</description>
+    <Placemark>
+      <name>
+        Xã Viên
+      </name>
+      <description>
+        Thông tin xã viên
+      </description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF0000FF</color>
+          <width> 1</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <coordinates>
+          106.52637720108032,10.605786544324891,0
+          106.52633428573608,10.601842482145827,0
+          106.52819037437439,10.601599931208538,0
+          106.52989625930786,10.601526111319902,0
+          106.53015375137329,10.605733816556118,0
+          106.52637720108032,10.605786544324891,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+</kml>

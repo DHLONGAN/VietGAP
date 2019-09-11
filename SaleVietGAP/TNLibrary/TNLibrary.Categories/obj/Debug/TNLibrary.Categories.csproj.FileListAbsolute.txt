@@ -1,0 +1,21 @@
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csprojResolveAssemblyReference.cache

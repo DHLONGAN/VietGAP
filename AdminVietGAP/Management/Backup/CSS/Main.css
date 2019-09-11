@@ -1,0 +1,342 @@
+﻿body
+{
+    margin: 0;
+    font-family: Arial;
+    font-size: 13px;
+    background-image: url(../Img/main_bg.png); /*background-color: #f4f4f4;*/
+}
+#Header
+{
+    background-color: #058004;
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+}
+
+#map-canvas
+{
+    height: 100%;
+    width: 100%;
+}
+#ContentWrapper
+{
+    top: 80px;
+    width: 100%;
+    height: 100%; /*position: fixed;*/
+}
+#ContentLeft
+{
+    width: 250px;
+    float: left;
+    position: fixed; /*z-index: -10;*/
+    height: 100%;
+    left: 0;
+    background-image: url(../Img/bg-left.gif); /* background-color:#cdf5d3;*/
+}
+#ContentRight
+{
+    position: fixed;
+    padding: 5px;
+    margin-left: 250px;
+    height: 100%;
+    width: 100%;
+}
+
+.MenuTop
+{
+}
+.MenuTop ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.MenuTop ul li
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: solid 0px red;
+    width: 80px;
+    height: 68px;
+    cursor: pointer;
+}
+
+.MenuTop .selected
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: solid 0px red;
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+    background-image: url(../Img/bg-left.gif);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.MenuTop .space
+{
+    background-color: #059904;
+    width: 2px;
+}
+#TitleCategory
+{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Trebuchet MS' , Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px 20px 0 0;
+    color: #959595;
+    text-shadow: 0 2px 2px rgba(0,0,0, .74);
+}
+.Line
+{
+    height: 15px;
+    width: 100%;
+    background-image: url(../Img/line-1.png);
+    background-repeat: repeat-x;
+}
+.Line1
+{
+    height: 5px;
+    width: 100%;
+    background-image: url(../Img/line-1.png);
+}
+.Line2
+{
+    height: 5px;
+    width: 100%;
+    background-image: url(../Img/line-1.png);
+    background-position: 0 -2px;
+}
+/*===============================*/
+.Categories
+{
+    padding-bottom: 10px;
+}
+
+.Categories ul
+{
+    list-style-type: none;
+    margin: 5px 0 0 0;
+    padding: 3px 10px 0 10px;
+    color: #959595;
+}
+.ListItem
+{
+    padding: 5px 0 5px 22px;
+    background-image: url(../img/list-marker.png);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    cursor: pointer;
+    font-size: 13px;
+    height: 15px;
+}
+.ListItem:hover
+{
+    color: White;
+    background-image: url(../img/list-marker.png);
+    background-position: 0 -80px;
+}
+.ListItem a
+{
+    color: #959595;
+}
+.ListItem a:hover
+{
+    color: White;
+}
+
+.ListItemActivate
+{
+    background-image: url(../img/list-marker.png);
+    background-repeat: no-repeat;
+    background-position: 0 -80px;
+    padding: 5px 0 5px 22px;
+    color: White;
+    cursor: pointer;
+    height: 15px;
+}
+.ListItemActivate a
+{
+    color: White;
+}
+.ListItemParent
+{
+    padding: 7px 0 7px 10px;
+    color: #959595;
+    background-image: url(../Img/down.png);
+    background-repeat: no-repeat;
+    background-position: 230px 7px;
+    cursor: pointer;
+}
+.ListItemParentActive
+{
+    padding: 7px 0 7px 10px;
+    color: White;
+    background-image: url(../Img/up.png);
+    background-repeat: no-repeat;
+    background-position: 230px 7px;
+    cursor: pointer;
+}
+
+/*===================*/
+.ListMenuSub
+{
+}
+.ListMenuSub ul
+{
+    list-style-type: none;
+    margin: 5px 0 0 0;
+    padding: 3px 10px 0 10px;
+    color: #959595;
+}
+.ListMenuSub .ItemParent
+{
+    padding: 7px 0 7px 10px;
+    color: #959595;
+    background-image: url(../Img/down.png);
+    background-repeat: no-repeat;
+    background-position: 230px 7px;
+    cursor: pointer;
+}
+.ListMenuSub .ItemParentActive
+{
+    padding: 7px 0 7px 10px;
+    color: White;
+    background-image: url(../Img/up.png);
+    background-repeat: no-repeat;
+    background-position: 230px 7px;
+    cursor: pointer;
+}
+.ListMenuSub .ItemParentHide
+{
+    padding: 7px 0 7px 10px;
+    color: #959595;
+    background-image: url(../Img/down.png);
+    background-repeat: no-repeat;
+    background-position: 230px 7px;
+    cursor: pointer;
+}
+
+/*-----------------------------*/
+.ListMenuSub .ItemSub
+{
+    padding: 5px 0 5px 22px;
+    background-image: url(../img/list-marker.png);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    cursor: pointer;
+    font-size: 13px;
+    height: 15px;
+}
+
+
+.ListMenuSub .ItemSub:hover
+{
+    color: White;
+    background-image: url(../img/list-marker.png);
+    background-position: 0 -80px;
+}
+.ListMenuSub .ItemSub a
+{
+    color: #959595;
+    text-decoration: none;
+}
+.ListMenuSub .ItemSub a:hover
+{
+    color: White;
+}
+
+.ListMenuSub .ItemSubActivate
+{
+    width: 220px;
+    padding: 7px 0 7px 21px; /*   background-image: url(../img/list-marker.png);*/
+    background-position: 0 -78px;
+    background-repeat: no-repeat;
+    background-image: url(../Img/main_bg.png);
+    color: Green;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.TitleForm
+{
+    text-align: center;
+    font-size: 30px;
+    background-repeat: repeat-x;
+    color: Green;
+    font-weight: bold;
+    padding: 10px;
+    height: 38px;
+}
+.HeaderFormSub
+{
+    text-align: center;
+    font-size: 20px;
+    background-image: url(../Img/headerForm.png);
+    background-repeat: repeat-x;
+    color: White;
+    font-weight: bold;
+    padding: 10px;
+    height: 38px;
+}
+.FooterFormSub
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 3px 0 3px 0;
+    background-color: Gray;
+}
+/*===============*/
+.PageNumber
+{
+    border: solid 1px #d6e3e5;
+    background-color: #f7fafc;
+    font-family: Arial;
+    font-size: 12px;
+    padding-top: 3px;
+    color: #8f9aa3;
+}
+.PageNumberSelect
+{
+    border: solid 1px #d6e3e5;
+    background-color: Gray;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: White;
+    padding-top: 3px;
+}
+
+.PageNumber2 a
+{
+    text-decoration: none;
+    color: #8f9aa3;
+}
+.PageNumber2:hover
+{
+    color: red;
+    background-color: White;
+}
+.PageNumber a
+{
+    text-decoration: none;
+    color: #8f9aa3;
+}
+.PageNumber:hover
+{
+    color: red;
+    background-color: White;
+}
+.PageNumberSeparator
+{
+    width: 5px;
+}

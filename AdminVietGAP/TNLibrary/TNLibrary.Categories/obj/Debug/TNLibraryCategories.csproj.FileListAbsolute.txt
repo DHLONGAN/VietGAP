@@ -1,0 +1,7 @@
+E:\Workspace\VietGAP\TNLibraryCategories\bin\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\TNLibraryCategories\bin\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\TNLibraryCategories\bin\Debug\TNLibrary.dll
+E:\Workspace\VietGAP\TNLibraryCategories\bin\Debug\TNLibrary.pdb
+E:\Workspace\VietGAP\TNLibraryCategories\obj\Debug\TNLibraryCategories.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\TNLibraryCategories\obj\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\TNLibraryCategories\obj\Debug\TNLibraryCategories.pdb

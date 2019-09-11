@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMap.master.cs" Inherits="Management.SiteMap" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>VIET GAP</title>
+    <link href="/CSS/Main.css" rel="stylesheet" type="text/css" />
+    <script src="/JS/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var nWidth = $(document).width() - 250;
+            //  var nHeight = $(document).height() - 95;
+
+            $("#ContentRight").css("width", nWidth);
+            // $("#ContentRight").css("height", nHeight);
+            $("#ListButton").click(function () {
+                if ($("#TitleCategory").is(":visible")) {
+                    $("#ContentLeft").css("width", 40);
+                    $("#ContentRight").css("margin-left", 40);
+                    $("#ContentRight").css("width", nWidth + 210);
+                    $("#TitleCategory").hide();
+                    $("#ContentMenuSub").hide();
+                }
+                else {
+                    $("#ContentLeft").css("width", 250);
+                    $("#ContentRight").css("margin-left", 250);
+                    $("#ContentRight").css("width", nWidth);
+                    $("#TitleCategory").show();
+                    $("#ContentMenuSub").show();
+                }
+            });
+            $('#listLayer2').click(function () {
+                $("#Layer").slideToggle();
+                if ($('#listLayer2').hasClass('imgup') == true) {
+                    $('#listLayer2').removeClass('imgup');
+                    $('#listLayer2').addClass('imgdown');
+                }
+                else {
+                    $('#listLayer2').removeClass('imgdown');
+                    $('#listLayer2').addClass('imgup');
+                }
+            });
+
+        });
+        function CheckSession() {
+            if (!SaveAnything("/Ajax", "CheckSession", JSON.stringify({}))) {
+                window.location = "/login.aspx";
+                return false;
+            }
+        }
+        function SaveAnything(book, name, valu) {
+            var result = false;
+            $.ajax(
+                        {
+                            type: "POST",
+                            url: book + ".aspx/" + name,
+                            data: valu,
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            async: false,
+                            success: function (response) {
+                                result = response.d;
+                            },
+                            error: function (response) {
+
+                            }
+                        });
+            return result;
+        }       
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Header">
+        <div style="float: left; width: 250px;">
+            <div style="font-size: 45px; font-weight: bold; font-family: Arial; color: White;
+                text-align: center; padding-top: 5px;">
+                VIETGAP</div>
+            <div style="font-size: 13px; font-weight: bold; font-family: Arial; color: White;
+                text-align: center; margin-top: -8px;">
+                SỞ KHOA HỌC CÔNG NGHỆ LONG AN
+            </div>
+        </div>
+        <div style="float: right; color: White; width:300px ;padding:5px 5px 0 0;">
+                    
+            <div style="font-weight:bold; font-style:italic; padding-bottom:5px;">
+               <span style="font-weight:normal; font-style:normal;">Tài khoản đăng nhập:</span>  <asp:Label ID="txtUserLogin" runat="server" Text="Xã viên : "></asp:Label>&nbsp;<a href="/Logout.aspx" style="font-weight:normal; font-style:normal;color:white"><b>[Đăng xuất]</b></a></div>
+               <span style="font-weight:normal; font-style:normal;">Loại tài khoản:</span><asp:Label ID="lbGroup" runat="server" style="color: red;  font-size: 20px;  font-weight: bold;"></asp:Label>
+        </div>
+        <div style="float: left">
+            <div class="MenuTop" style="padding-top: 10px;">
+                <asp:Literal ID="LiteMenuTop" runat="server"></asp:Literal>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both; background-image: url(../Img/bg-left.gif); width: 100%;
+        height: 8px;">
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

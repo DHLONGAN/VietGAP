@@ -1,0 +1,43 @@
+E:\Google Drive\Programming\TNConfig\bin\Debug\TNConfig.dll
+E:\Google Drive\Programming\TNConfig\bin\Debug\TNConfig.pdb
+E:\Google Drive\Programming\TNConfig\obj\Debug\ResolveAssemblyReference.cache
+E:\Google Drive\Programming\TNConfig\obj\Debug\TNConfig.dll
+E:\Google Drive\Programming\TNConfig\obj\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNConfig\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNConfig\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNConfig\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNConfig\obj\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNConfig\obj\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNConfig\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNConfig\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNConfig\obj\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNConfig\obj\Debug\TNConfig.pdb
+D:\DLA\Version 1.0\TNConfig\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.0\TNConfig\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.0\TNConfig\obj\Debug\TNConfig.dll
+D:\DLA\Version 1.0\TNConfig\obj\Debug\TNConfig.pdb
+D:\DLA\SaleGAP\TNConfig\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAP\TNConfig\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAP\TNConfig\obj\Debug\TNConfig.dll
+D:\DLA\SaleGAP\TNConfig\obj\Debug\TNConfig.pdb
+D:\DLA\SaleGAP\TNConfig\obj\Debug\ResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\TNConfig\bin\Debug\TNConfig.dll
+E:\Workspace\SaleGAP\TNConfig\bin\Debug\TNConfig.pdb
+E:\Workspace\SaleGAP\TNConfig\obj\Debug\TNConfig.dll
+E:\Workspace\SaleGAP\TNConfig\obj\Debug\TNConfig.pdb
+D:\DLA\SaleGAPNew\TNConfig\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAPNew\TNConfig\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAPNew\TNConfig\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\SaleGAPNew\TNConfig\obj\Debug\TNConfig.dll
+D:\DLA\SaleGAPNew\TNConfig\obj\Debug\TNConfig.pdb
+D:\DLA\Sale 1.0\TNConfig\bin\Debug\TNConfig.dll
+D:\DLA\Sale 1.0\TNConfig\bin\Debug\TNConfig.pdb
+D:\DLA\Sale 1.0\TNConfig\obj\Debug\TNConfig.dll
+D:\DLA\Sale 1.0\TNConfig\obj\Debug\TNConfig.pdb
+D:\DLA\Sale 1.0\TNConfig\obj\Debug\ResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNConfig\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNConfig\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNConfig\obj\Debug\TNConfig.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNConfig\obj\Debug\TNConfig.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNConfig\obj\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNConfig\obj\Debug\TNConfig.pdb

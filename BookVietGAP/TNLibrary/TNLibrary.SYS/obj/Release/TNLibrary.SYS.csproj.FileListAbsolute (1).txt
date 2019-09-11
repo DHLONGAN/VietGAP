@@ -1,0 +1,27 @@
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Release\LanguageVN.xml
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Release\TNLibrary.SYS.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Release\TNLibrary.SYS.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Release\TNConfig.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Release\TNConfig.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\ResolveAssemblyReference.cache
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNGridView.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Properties.Resources.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Release\TNLibrary.SYS.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Release\LanguageVN.xml
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Release\TNLibrary.SYS.dll
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Release\TNLibrary.SYS.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Release\TNConfig.dll
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Release\TNConfig.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\ResolveAssemblyReference.cache
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNGridView.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Properties.Resources.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.dll
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Release\TNLibrary.SYS.Forms.TNMonthCalerdar.resources

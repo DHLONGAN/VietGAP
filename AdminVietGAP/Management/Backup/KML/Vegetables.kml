@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Folder>
+    <description>Hop Tac Xa</description>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien A</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.52820646762848,10.602717773060387,0
+              106.52807772159576,10.601932120487053,0
+              106.52860879898071,10.601874119210429,0
+              106.52872145175934,10.602617589287377,0
+              106.52820646762848,10.602717773060387,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien B</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.52807235717773,10.603851429259429,0
+              106.5278685092926,10.603129053469114,0
+              106.52885556221008,10.60296032311189,0
+              106.52930617332458,10.602939231810689,0
+              106.52949392795563,10.603461241088104,0
+              106.52807235717773,10.603851429259429,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien C</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.52837812900543,10.60487962543634,0
+              106.52819573879242,10.604225798523764,0
+              106.52740180492401,10.60430489056326,0
+              106.5275251865387,10.604663440885963,0
+              106.52756810188293,10.604937626143391,0
+              106.52837812900543,10.60487962543634,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.52681708335876,10.603782882724806,0
+              106.52667760848999,10.60280213831749,0
+              106.52728915214539,10.602717773060387,0
+              106.52751445770264,10.603740700234335,0
+              106.52681708335876,10.603782882724806,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.5957123041153,10.582595995499108,0
+              106.5956050157547,10.582880746849904,0
+              106.59557819366455,10.58379300402662,0
+              106.5957659482956,10.5837244530036,0
+              106.5958571434021,10.583940652331838,0
+              106.59601271152496,10.583903740262198,0
+              106.596018075943,10.583671721437002,0
+              106.59622192382812,10.58362426301931,0
+              106.59617364406586,10.582543263738472,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.59618973731995,10.582527444208514,0
+              106.59687638282776,10.582437800189984,0
+              106.59687638282776,10.58202649200434,0
+              106.59614682197571,10.582079223853842,0
+              106.59618973731995,10.582527444208514,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.59659206867218,10.583734999315826,0
+              106.59654915332794,10.582965117569735,0
+              106.59689247608185,10.58292293221272,0
+              106.59690320491791,10.583608443545113,0
+              106.59659206867218,10.583734999315826,0
+              
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.59587860107422,10.58407248111571,0
+              106.59698367118835,10.583597897228524,0
+              106.59715533256531,10.583924832873965,0
+              106.59605026245117,10.584409962544145,0
+              106.59587860107422,10.58407248111571,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.59465551376343,10.58360317038687,0
+              106.594939827919,10.583471341401236,0
+              106.59481108188629,10.583170771102067,0
+              106.59517586231232,10.583012576089434,0
+              106.59524023532867,10.583255141742105,0
+              106.59522414207458,10.58350298036295,0
+              106.59517586231232,10.583798277181609,0
+              106.5948486328125,10.583903740262198,0
+              106.59465551376343,10.58360317038687,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.52856588363647,10.605385813054415,0
+              106.52840495109558,10.604774169577187,0
+              106.5290915966034,10.60464762249823,0
+              106.52931690216064,10.605290902939808,0
+              106.52905941009521,10.605396358620888,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.47179424762726,10.421104886497167,0
+              106.47188007831573,10.4208674694905,0
+              106.47201955318451,10.420883297296566,0
+              106.47207319736481,10.420819986067452,0
+              106.47295296192169,10.421025747515037,0
+              106.47286713123322,10.42127899218705,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.47159576416016,10.422497729291724,0
+              106.47156894207001,10.421516408880104,0
+              106.47194445133209,10.4215375125774,0
+              106.47182643413544,10.422524108830025,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark xmlns="http://earth.google.com/kml/2.1">
+      <name>Xa vien D</name>
+      <description></description>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Style>
+        <LineStyle>
+          <color>FF035b02</color>
+          <width>  1</width>
+        </LineStyle>
+        <PolyStyle>
+          <fill>1</fill>
+          <outline>1</outline>
+          <color>FF088C07</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              106.4724862575531,10.4216430310424,0
+              106.47229313850403,10.422692937822166,0
+              106.47185862064362,10.422545212459044,0
+              106.47197127342224,10.421521684804551,0
+
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</kml>

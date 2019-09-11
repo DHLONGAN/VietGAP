@@ -1,0 +1,75 @@
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.read.1.tlog
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.write.1.tlog
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csprojResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.read.1.tlog
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.write.1.tlog
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.read.1.tlog
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.write.1.tlog
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb

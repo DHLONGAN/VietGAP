@@ -1,0 +1,37 @@
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csprojResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\bin\Debug\TNLibraryCategories.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibrary.Categories.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Categories\obj\Debug\TNLibraryCategories.pdb

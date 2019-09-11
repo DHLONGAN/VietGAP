@@ -1,0 +1,158 @@
+E:\Long An University\Projects\VietGAP\Software\Management\bin\Management.dll
+E:\Long An University\Projects\VietGAP\Software\Management\bin\Management.pdb
+E:\Long An University\Projects\VietGAP\Software\Management\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Management\obj\Debug\Management.dll
+E:\Long An University\Projects\VietGAP\Software\Management\obj\Debug\Management.pdb
+E:\Long An University\Projects\VietGAP\Software\Management\bin\TNLibrary.dll
+E:\Long An University\Projects\VietGAP\Software\Management\bin\TNLibrary.pdb
+E:\Long An University\Projects\VietGAP\Software\Management\bin\Telerik.Web.UI.dll
+E:\Workspace\VietGAP\Management\bin\Management.dll
+E:\Workspace\VietGAP\Management\bin\Management.pdb
+E:\Workspace\VietGAP\Management\bin\TNLibrary.dll
+E:\Workspace\VietGAP\Management\bin\TNLibrary.pdb
+E:\Workspace\VietGAP\Management\obj\Debug\Management.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Management\obj\Debug\Management.dll
+E:\Workspace\VietGAP\Management\obj\Debug\Management.pdb
+E:\Workspace\VietGAP\Management\bin\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Management\bin\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Management\bin\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Management\bin\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Management\bin\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Management\bin\TNLibrary.Culture.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\obj\Debug\Management.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\LanguageVN.xml
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\Management.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\Management.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.Culture.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.Fields.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.SYS.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.WEB.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibraryCategories.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibraryCategories.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.Culture.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.Fields.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.SYS.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNLibrary.WEB.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\bin\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\Management\obj\Debug\Management.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\LanguageVN.xml
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\Management.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\Management.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.WEB.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibraryCategories.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibraryCategories.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.SYS.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNLibrary.WEB.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\bin\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\obj\Debug\Management.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\obj\Debug\Management.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\Management\obj\Debug\Management.pdb
+D:\DLA\Version 1.0\Management\bin\LanguageVN.xml
+D:\DLA\Version 1.0\Management\bin\Management.dll
+D:\DLA\Version 1.0\Management\bin\Management.pdb
+D:\DLA\Version 1.0\Management\bin\TNLibrary.Culture.dll
+D:\DLA\Version 1.0\Management\bin\TNLibrary.Fields.dll
+D:\DLA\Version 1.0\Management\bin\TNLibrary.SYS.dll
+D:\DLA\Version 1.0\Management\bin\TNLibrary.WEB.dll
+D:\DLA\Version 1.0\Management\bin\TNLibraryCategories.dll
+D:\DLA\Version 1.0\Management\bin\TNConfig.dll
+D:\DLA\Version 1.0\Management\bin\TNLibraryCategories.pdb
+D:\DLA\Version 1.0\Management\bin\TNLibrary.Culture.pdb
+D:\DLA\Version 1.0\Management\bin\TNLibrary.Fields.pdb
+D:\DLA\Version 1.0\Management\bin\TNLibrary.SYS.pdb
+D:\DLA\Version 1.0\Management\bin\TNLibrary.WEB.pdb
+D:\DLA\Version 1.0\Management\bin\TNConfig.pdb
+D:\DLA\Version 1.0\Management\obj\Debug\Management.csprojResolveAssemblyReference.cache
+D:\DLA\Version 1.0\Management\obj\Debug\Management.dll
+D:\DLA\Version 1.0\Management\obj\Debug\Management.pdb
+D:\DLA\SaleGAP\Management\bin\LanguageVN.xml
+D:\DLA\SaleGAP\Management\bin\Management.dll
+D:\DLA\SaleGAP\Management\bin\Management.pdb
+D:\DLA\SaleGAP\Management\bin\TNConfig.dll
+D:\DLA\SaleGAP\Management\bin\TNLibrary.Fields.dll
+D:\DLA\SaleGAP\Management\bin\TNLibrary.SYS.dll
+D:\DLA\SaleGAP\Management\bin\TNLibrary.WEB.dll
+D:\DLA\SaleGAP\Management\bin\TNConfig.pdb
+D:\DLA\SaleGAP\Management\bin\TNLibrary.Fields.pdb
+D:\DLA\SaleGAP\Management\bin\TNLibrary.SYS.pdb
+D:\DLA\SaleGAP\Management\bin\TNLibrary.WEB.pdb
+D:\DLA\SaleGAP\Management\obj\Debug\Management.dll
+D:\DLA\SaleGAP\Management\obj\Debug\Management.pdb
+D:\DLA\SaleGAP\Management\bin\TNLibrary.SAL.dll
+D:\DLA\SaleGAP\Management\bin\TNLibrary.SAL.pdb
+D:\DLA\SaleGAP\Management\obj\Debug\ResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\Management\bin\LanguageVN.xml
+E:\Workspace\SaleGAP\Management\bin\Management.dll
+E:\Workspace\SaleGAP\Management\bin\Management.pdb
+E:\Workspace\SaleGAP\Management\bin\TNConfig.dll
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.Fields.dll
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.SAL.dll
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.SYS.dll
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.WEB.dll
+E:\Workspace\SaleGAP\Management\bin\TNConfig.pdb
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.Fields.pdb
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.SAL.pdb
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.SYS.pdb
+E:\Workspace\SaleGAP\Management\bin\TNLibrary.WEB.pdb
+E:\Workspace\SaleGAP\Management\obj\Debug\Management.csprojResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\Management\obj\Debug\Management.dll
+E:\Workspace\SaleGAP\Management\obj\Debug\Management.pdb
+D:\DLA\SaleGAPNew\Management\bin\LanguageVN.xml
+D:\DLA\SaleGAPNew\Management\bin\Management.dll
+D:\DLA\SaleGAPNew\Management\bin\Management.pdb
+D:\DLA\SaleGAPNew\Management\bin\TNConfig.dll
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.Fields.dll
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.SAL.dll
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.SYS.dll
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.WEB.dll
+D:\DLA\SaleGAPNew\Management\bin\TNConfig.pdb
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.Fields.pdb
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.SAL.pdb
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.SYS.pdb
+D:\DLA\SaleGAPNew\Management\bin\TNLibrary.WEB.pdb
+D:\DLA\SaleGAPNew\Management\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\SaleGAPNew\Management\obj\Debug\Management.dll
+D:\DLA\SaleGAPNew\Management\obj\Debug\Management.pdb
+D:\DLA\Sale 1.0\Management\bin\LanguageVN.xml
+D:\DLA\Sale 1.0\Management\bin\Management.dll
+D:\DLA\Sale 1.0\Management\bin\Management.pdb
+D:\DLA\Sale 1.0\Management\bin\TNConfig.dll
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.Fields.dll
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.SAL.dll
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.SYS.dll
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.WEB.dll
+D:\DLA\Sale 1.0\Management\bin\TNConfig.pdb
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.Fields.pdb
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.SAL.pdb
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.SYS.pdb
+D:\DLA\Sale 1.0\Management\bin\TNLibrary.WEB.pdb
+D:\DLA\Sale 1.0\Management\obj\Debug\Management.dll
+D:\DLA\Sale 1.0\Management\obj\Debug\Management.pdb
+D:\DLA\Sale 1.0\Management\obj\Debug\ResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\LanguageVN.xml
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\Management.dll.config
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\Management.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\Management.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.Fields.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.SAL.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.WEB.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.Fields.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.SAL.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.SYS.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\bin\TNLibrary.WEB.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\obj\Debug\Management.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\obj\Debug\Management.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\obj\Debug\Management.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\obj\Debug\Management.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\Management\obj\Debug\Management.pdb

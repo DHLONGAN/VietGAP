@@ -1,0 +1,562 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMains.master.cs" Inherits="Management.SiteMains" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="icon" href="/Img/favicon.ico" type="image/x-icon">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="Lib/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <link href="Lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+<%--    <link href="Lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="Lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />--%>
+    <script src="/JS/jquery-2.1.0.min.js" type="text/javascript"></script>
+    <script src="/JS/numeral.min.js" type="text/javascript"></script>
+    <link href="/Lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script id="google_map_api_script" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=drawing"></script>
+    <script src="/JS/ReadMap.js" type="text/javascript"></script>
+    <script src="/JS/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+     $(document).ready(function () {
+        $("#btn_search").click(function () {
+            loadSearch();
+        });
+        $('#txt_search').bind("keyup keypress", function (e) {
+        var code = e.keyCode || e.which;
+        if (code == 13) {
+            loadSearch();
+            return false;
+        }});
+        $("#htx").html(DDList("ListCooperative"));
+
+        });
+        function CheckText(id, num) {
+            if ($("#" + id).val().length < num || $("#" + id).val() == null || $("#" + id).val() == "") {
+                var div = $("#" + id).closest("div");
+                div.addClass("has-error");
+                $("#sp-" + id).addClass("glyphicon glyphicon-remove form-control-feedback");
+                return false;
+            }
+            else {
+                var div = $("#" + id).closest("div");
+                div.removeClass("has-error");
+                div.addClass("has-success");
+                $("#sp-" + id).removeClass("glyphicon glyphicon-remove form-control-feedback");
+                $("#sp-" + id).addClass("glyphicon glyphicon-ok form-control-feedback");
+                return true;
+            }
+        }
+        function SaveAnything(book, name, valu) {
+            var result = false;
+            $.ajax(
+                                {
+                                    type: "POST",
+                                    url: book + ".aspx/" + name,
+                                    data: valu,
+                                    contentType: "application/json; charset=utf-8",
+                                    dataType: "json",
+                                    async: false,
+                                    success: function (response) {
+                                        result = response.d;
+                                    },
+                                    error: function (response) {
+                                        alert("fail");
+                                    }
+                                });
+            return result;
+        }
+        function loadSearch() {
+            if (!CheckText("txt_search", 1)) { ShowMess('confirmMessNull', 4000); return false; }
+            var nbody = "";
+            var Text = SaveAnything("Ajax", "LoadSearchCode", JSON.stringify({ Code: $("#txt_search").val() }))
+            if (Text != '') {
+        var ddl = JSON.parse(Text);
+        for (var i = 0; i < ddl.length; i++) {
+            var DS = ddl[i];
+            nbody += "<div>" +
+                        "<label for='contact-name' class='col-sm-12 control-label' style='margin-top: 15px;'><strong> Tên Hợp Tác Xã : " + DS.Cooperative_Name + "</strong></label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Ngày cấp chứng nhận : " + DS.DateRange + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Sản phẩm : " + DS.TreeType + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Số điện thoại : " + DS.Phone + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Địa chỉ : " + DS.Address + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Mã VietGAP : " + DS.VietGAPCode + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'><strong> Sản phẩm : " + DS.SeedsName + "</strong></label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Ngày trồng : " + DS.DateOfManufacture + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Ngày thu hoạch : " + DS.DatetimeSale + "</label>" +
+                                "<label for='contact-name' class='col-sm-12 control-label'> Nơi thu mua : " + DS.WhereToBuy + "</label>" +
+                     "</div><hr style='width: 100%; color: black; height: 1px; background-color:#eee;  margin: 0;'>";
+                }
+            }
+            else {
+                nbody = "<div class='form-group has-feedback'>" +
+                                "<label for='contact-name' class='col-sm-12 control-label' style='margin-top: 15px;'><strong> Không tìm thấy thông tin về " + $("#txt_search").val() + "</strong></label>" +
+                             "</div>";
+            }
+            $("#Divcount").html(nbody);
+        }
+        var myLatlng = new google.maps.LatLng(10.605501814265633, 106.52668833732605);
+        var marker;
+        var marker_corp =[];
+        var zNum;
+        
+        function initialize() {
+            var mapOptions = {
+                zoom: 10,
+                //center: new google.maps.LatLng(10.656559161780331, 106.13067626953125),
+                center: new google.maps.LatLng(10.605501814265633, 106.52668833732605),
+                mapTypeId: google.maps.MapTypeId.HYBRID 
+            };
+
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+            var shapesMap = new ShapesMap();
+            //SetStatusPLanLayer('Map1', '1');
+            for (var i = 0; i < LCooperative.length; i++) {
+                var nCorpInfo = LCooperative[i];
+                var nLatLng = new google.maps.LatLng(nCorpInfo.Lat, nCorpInfo.Lng);
+                var icon = { 
+                                url: urldomain+'/Img/Tree/' + nCorpInfo.Icon,
+                                scaledSize: new google.maps.Size(45, 45)
+                            };
+                marker_corp[i] = new google.maps.Marker({
+                    map: map,
+                    icon: icon, 
+                    position: nLatLng,
+                    title: nCorpInfo.CorpName,
+                    zIndex: i
+                });
+                google.maps.event.addListener(marker_corp[i], 'click', function () {
+                    zoomCoords = this.getPosition();  
+                    map.panTo(zoomCoords); 
+                    loadCorpInfo(this.zIndex, this);
+                });
+                google.maps.event.addListener(map, 'zoom_changed', function () {
+                    zoomFluid = map.getZoom();
+                });
+                
+            }
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        //------------Maps MarkerClick Start--------------
+        function SetStatusPLanLayer(id, key) {
+            LoadPlanKML(key,true);
+        }
+        function SetStatusLayer(id, key) {
+            loadCorpInfo(key, marker_corp[key]);
+            map.panTo(marker_corp[key].getPosition());
+            zNum = id;
+        }
+        /*------------------Maps Add Plan Start------------------*/
+        player_plan_kml = 
+        {
+            1:{Name:'1mWOqhiHZIoO50AflgcFe_QxYAYWcAR7XsFtMLGbF', obj:Object},
+            2:{Name:'1tFe_2W_VtSXbkWI1o9zxEzQh9UrfmjTniwSZ75wt', obj:Object},
+        }
+        /*------------------Load Info Start------------------*/
+        function loadCorpInfo(Index, marker) {
+            var nCorpInfo = LCooperative[Index];
+            var linkcoop = 'href="'+nCorpInfo.Cooperative_Key+'"';
+            var nContent = '<div><b><a href="/htx/'+nCorpInfo.Cooperative_ID+'" target="_blank" >' + nCorpInfo.Cooperative_Name + '</a></b></div>';
+            var Content = '<div id="content">' +
+                            '<h3 id="firstHeading" class="firstHeading">' + nCorpInfo.CorpName + '</h3>' +
+                            '<div id="bodyContent">' +
+                            '<p><b>Địa chỉ : </b> ' + nCorpInfo.Address +
+                            '<p><b>Liên hệ : </b>' + nCorpInfo.Phone +
+                            '<p><b>Sản phẩm : </b>' + nCorpInfo.TreeType +
+                            '<p><b>Tổng diện tích (ha): </b>' + nCorpInfo.Area +
+                            '<p><h3><b><asp:HyperLink runat="server" href="#" onclick=PesticidesDetail()>Chi tiết</asp:HyperLink> </b></h3>' +
+                            '</div>' +
+                            '</div>';
+            infowindow.setContent(nContent);
+            infowindow.open(map, marker);
+        }
+        var infowindow = new google.maps.InfoWindow({
+            maxWidth: 500
+        });
+        //----------load DS ----------
+        function DSSeed(id,LSeedCoop){
+        var Name ='';
+        var stt = 0;
+        var Member_key = 0;
+        for (var i = 0; i < LSeedCoop.length; i++) {
+           var DS = LSeedCoop[i];
+           stt = stt+1;
+           for (var j = 0;j<LCooperative.length;j++){
+               if(DS[1] ==LCooperative[j].Cooperative_Key)
+               {
+                   Member_key='"SetStatusLayer(this.id,'+j+')"';
+               }
+           }
+           var number = numeral(DS[8]);
+           var num = DS[8];
+           if ($.isNumeric(num) == false | num == 0){
+                num= "Vui lòng liên hệ";
+           }
+           else{
+                num = CurrencyFormat(DS[8]) + " đ";
+           }
+           Name += '<div id =di'+stt+'lt'+id+' class = "ListSeed" onclick='+Member_key+'>'+
+                        '<table>'+
+                            '<tr>'+
+                                '<td>'+
+                                    '<img style ="width: 138px; height: 103px; float: left;" src ="'+urldomain+'/'+DS[4]+'">'+
+                                '</td>'+
+                                '<td style = "vertical-align: top;  padding-left: 5px;">'+
+                                    '<div><a Class="ListItemMember" onclick='+Member_key+'>'+stt+'. '+DS[2]+'</a><p>'+DS[3]+'</p><p>'+DS[5]+'</p><p>Giá bán : <a class ="price">'+num+'</a></p></div>'+
+                                '</td>'+
+                            '</tr>'+
+                        '</table>'+
+                    '</div>';
+            }
+        var ListMember =  Name ;
+        $("#lt"+id).html("");
+        $("#lt"+id).addClass('ok');
+        $("#lt"+id).html(ListMember);
+        }
+        function formatNumber (num) {
+            return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+        }
+        function DSHTX(id,LSeedCoop){
+        var Name ='';
+        var stt = 0;
+        var Cooperative = 0;
+        for (var i = 0; i < LCooperative.length; i++) {
+           var DS = LCooperative[i];
+           stt = stt+1;
+           Cooperative='"SetStatusLayer(this.id,'+i+')"';
+           Name += '<div id =di'+stt+'lt'+id+' class = "ListSeed" onclick='+Cooperative+'>'+
+                        '<table>'+
+                            '<tr>'+
+                                '<td>'+
+                                    '<img style ="width: 138px; height: 103px; float: left;" src ="'+urldomain+'/Img/Tree/'+ DS.Cooperative_Key +'-'+ DS.Icon+'">'+
+                                '</td>'+
+                                '<td style = "vertical-align: top;  padding-left: 5px;">'+
+                                    '<div><a Class="ListItemMember" onclick='+Cooperative+'>'+stt+'. '+DS.Cooperative_Name+'</a></p>'+DS.Phone+'</p>'+DS.Address+'</div>'+
+                                '</td>'+
+                            '</tr>'+
+                        '</table>'+
+                    '</div>';
+            }
+        var ListMember =  Name ;
+        $("#lt"+id).html("");
+        $("#lt"+id).addClass('ok');
+        $("#lt"+id).html(ListMember);
+        }
+        //------------TabContent Start------------
+        function SetStatusLayer(id, key) {
+        $('#' + zNum).removeClass('ListSeedActivate');
+            $('#' + zNum).addClass('ListSeed');
+            if ($('#' + id).hasClass('ListSeedActivate') == false) {
+                $('#' + id).removeClass('ListSeed');
+                $('#' + id).addClass('ListSeedActivate');
+                loadCorpInfo(key, marker_corp[key]);
+                map.panTo(marker_corp[key].getPosition());
+            }
+            else {
+                $('#' + id).removeClass('ListSeedActivate');
+                $('#' + id).addClass('ListSeed');
+                loadCorpInfo(key, marker_corp[key]);
+                map.panTo(marker_corp[key].getPosition());
+            }
+        zNum = id;
+        }
+
+        function CurrencyFormat(number) {
+            var decimalplaces = 0;
+            var decimalcharacter = "";
+            var thousandseparater = ",";
+            number = parseFloat(number);
+            var sign = number < 0 ? "-" : "";
+            var formatted = new String(number.toFixed(decimalplaces));
+            if (decimalcharacter.length && decimalcharacter != ".") { formatted = formatted.replace(/\./, decimalcharacter); }
+            var integer = "";
+            var fraction = "";
+            var strnumber = new String(formatted);
+            var dotpos = decimalcharacter.length ? strnumber.indexOf(decimalcharacter) : -1;
+            if (dotpos > -1) {
+                if (dotpos) { integer = strnumber.substr(0, dotpos); }
+                fraction = strnumber.substr(dotpos + 1);
+            }
+            else { integer = strnumber; }
+            if (integer) { integer = String(Math.abs(integer)); }
+            while (fraction.length < decimalplaces) { fraction += "0"; }
+            temparray = new Array();
+            while (integer.length > 3) {
+                temparray.unshift(integer.substr(-3));
+                integer = integer.substr(0, integer.length - 3);
+            }
+            temparray.unshift(integer);
+            integer = temparray.join(thousandseparater);
+            return sign + integer + decimalcharacter + fraction;
+        }
+
+        function DDList(load) {
+            var result = "";
+            var ddlist = "";
+            var ddl = JSON.parse(getList(load));
+            for (var i = 0; i < ddl.length; i++) {
+                var DS = ddl[i];
+                ddlist += "<option value='" + DS.Key + "'>" + DS.Name + "</option>"
+            }
+            result ="<option value='0'>Chọn</option>" +
+                                        ddlist;
+            return result;
+        }
+        function getList(name) {
+            var result = "";
+            $.ajax({
+                type: "POST",
+                url: "Ajax.aspx/" + name,
+                data: {},
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                async: false,
+                success: function (response) {
+                    result = response.d;
+                }
+            });
+            return result;
+        }
+        function dk(strURL) {
+            var form = document.forms['f2'];
+            var username = form.txtusername.value;
+            var password = form.txtpassword.value;
+            var repassword = form.txtrepassword.value;
+            var email = form.txtemail.value;
+            var name = form.txtname.value;
+            var idmember = form.txtidmember.value;
+            var Cooperative = $("#htx").val();
+            var phone = form.txtphone.value;
+            var address = form.txtaddress.value;
+            var values = JSON.stringify({
+                username : username,
+                "password": password,
+                "repassword": repassword,
+                "email": email,
+                "name": name,
+                "idmember":idmember,
+                "Cooperative": Cooperative,
+                "phone": phone,
+                "address":address
+            });
+            if (username == '' || password == '' || repassword == '' || email == '' || name == '' || idmember == '' || Cooperative == '' || phone == '' || address == '') {
+                alert("Vui lòng điền đầy đủ thông tin");
+                return;
+            }
+            $.ajax({
+                type: "POST",
+                url: "Ajax.aspx/dk", // + name,
+
+                data: values,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                async: false,
+                success: function (response) {
+                    result = response.d;
+                    $("#lbError2").html(result);
+                    //alert(result);
+                }
+            });
+        }
+</script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--HEADER-->
+    <div id='headerID' class="r-header">
+        <div class="r-header-topline">
+        </div>
+        <div class="r-header-main">
+            <div class="container">
+                <div class="reat   hidden-xs">
+                    <div class="max-top-menu">
+                        <ul>
+                            <li><a title="Trợ giúp" href="#">Trợ giúp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 desktop tablet">
+                        <a href="/Default.aspx" title="VietGAP" class="web-logo">
+                            <img src="../Img/logo_bnc.png" alt="Logo" class="img-responsive " width="200px">
+                        </a>
+                        <div style="font-size: 15px; padding-top: 8px; font-weight: bold; font-family: Arial; color: #0fb001;
+                            text-align: center; margin-top: -8px;">
+                            ĐẠI HỌC LONG AN
+                        </div>
+                        <div class="clearfix">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8 col-md-8 col-sm-2">
+                        <a href="javascript:void(0);" class="mobi-toggler">
+                            <span class="icon-bar b1"></span>
+                            <span class="icon-bar b2"></span>
+                            <span class="icon-bar b3"></span>
+                        </a>
+                        <div class="r-menu-top menu-open desktop-mn">
+                            <ul>
+                                <li><a title="Trang chủ" href="../trangchu"><img src="../Img/home.png"></a></li>
+                                <asp:Literal ID="LiteMenuTop" runat="server"></asp:Literal>
+                                <li><a href="#Code" data-toggle="modal">Tra cứu thông tin</a> </li>
+                                <div class="clearfix">
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 desktop-log nopadingmobile " style="padding: 0">
+                        <div class="r-login ">
+                            <a class="r-login-bt" href="http://sotay.vietgap.info/Login.aspx" title="Đăng nhập" data-toggle="modal">Đăng nhập</a>
+                            <a class="r-login-bt" href="#register" title="Đăng ký" data-toggle="modal" style="margin-left: 10px;">Đăng ký</a> 
+                            
+                            <div class="clearfix">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+<!--BODY-->
+    <div id='bodyID' class="r-body" style="min-height: 100px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+<!--FOOTER-->
+   
+    </form>
+  <div id="Code" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header modal-header-default">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" style="text-align: center;"><div>TRA CỨU MÃ TRUY VẾT</div><a class="anchorjs-link" href="#pro16"><span class="anchorjs-icon"></span></a></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="col-md-12" style="margin-bottom: 5px; padding: 10px;">
+                            <div class="col-lg-12">
+                                <div id="custom-search-input">
+                                    <div class="input-group col-md-12">
+                                        <input id="txt_search" type="text" class="form-control input-lg" placeholder="Tìm kiếm" />
+                                        <span class="input-group-btn">
+                                            <button id="btn_search" class="btn btn-info btn-lg" type="button">
+                                                <i class="glyphicon glyphicon-search"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="Divcount"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="confirmMessNull" role="dialog" aria-labelledby="confirmDeleteLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header modal-header-warning">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;</button>
+                    <h2 class="modal-title">
+                        Thông báo</h2>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Bạn chưa nhập đủ thông tin vui lòng kiểm tra lại !</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">
+                        Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="register" role="dialog" aria-labelledby="" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <form class="form-horizontal" role="form" id="f2">
+                <div class="modal-header modal-header-primary">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title">Đăng ký tài khoản</h2>
+                </div>
+            <div class="modal-body" style="margin-bottom: -30px;">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Tài khoản</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtusername" name="txtusername"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Mật khẩu</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtpassword" name="txtpassword"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Nhập lại mật khẩu</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtrepassword" name="txtrepassword"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtemail" name="txtemail"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Tên xã viên</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtname" name="txtname"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Mã xã viên</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtidmember" name="txtidmember"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Số điện thoại</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtphone" name="txtphone"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Hợp tác xã</label>
+                        <div class="col-sm-8">
+                           <select id="htx">
+                                 
+                          </select>
+                                    <span id='Span1'></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">Địa chỉ</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="txtaddress" name="txtaddress"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" id="lbError2" class="col-sm-12 control-label text-center" style="color: Red;"></label>
+                    </div>
+            </div>
+                <div class="modal-footer">
+                    <a class="btn btn-success center-block" href="javascript:dk('/Ajax.aspx/dk/')">Đồng ý</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

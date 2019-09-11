@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{821E12E5-D3D5-4DBD-AF0A-594042CB7064}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TNLibrary.SYS</RootNamespace>
+    <AssemblyName>TNLibrary.SYS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompanyInfo.cs" />
+    <Compile Include="DisplayLang.cs" />
+    <Compile Include="Forms\ListViewColumnSorter.cs" />
+    <Compile Include="Forms\ListViewGroupSorter.cs" />
+    <Compile Include="Forms\ListViewMyGroup.cs" />
+    <Compile Include="Forms\TNDateTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TNDateTimePicker.designer.cs">
+      <DependentUpon>TNDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TNGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TNGridView.Designer.cs">
+      <DependentUpon>TNGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TNMonthCalerdar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TNMonthCalerdar.Designer.cs">
+      <DependentUpon>TNMonthCalerdar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TNTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TNTreeView.Designer.cs">
+      <DependentUpon>TNTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TreeViewData.cs" />
+    <Compile Include="GlobalSystemConfig.cs" />
+    <Compile Include="GraphicProcess.cs" />
+    <Compile Include="LoadDataToToolbox.cs" />
+    <Compile Include="MyCryptography.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionUserLogin.cs" />
+    <Compile Include="SystemConfigInfo.cs" />
+    <Compile Include="TimeLearn_Info.cs" />
+    <Compile Include="TNFunctions.cs" />
+    <Compile Include="TN_Item.cs" />
+    <Compile Include="Users\Roles_Data.cs" />
+    <Compile Include="Users\Role_Info.cs" />
+    <Compile Include="Users\Users_Roles_Data.cs" />
+    <Compile Include="Users\User_Role_Info.cs" />
+    <Compile Include="Users\User_Info.cs" />
+    <Compile Include="Users\Users_Data.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LanguageVN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\TNDateTimePicker.resx">
+      <DependentUpon>TNDateTimePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TNGridView.resx">
+      <DependentUpon>TNGridView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TNMonthCalerdar.resx">
+      <DependentUpon>TNMonthCalerdar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TNTreeView.resx">
+      <DependentUpon>TNTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\TNConfig\TNConfig.csproj">
+      <Project>{DFF061E9-230B-46B7-BCAD-E342E40F8177}</Project>
+      <Name>TNConfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

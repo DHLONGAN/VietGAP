@@ -1,0 +1,121 @@
+﻿.Body_GridView
+{
+	border-color: #a5b3c5;
+	border-style: solid;
+	border-width: 1px;
+}
+.Border_GridView
+{
+	border-right: #ffffff 0px solid;
+	border-top: #ffffff 0px solid;
+	border-left: #ffffff 0px solid;
+	border-bottom: #ffffff 0px solid;
+}
+.Border_GridViewLine
+{
+	border-right: solid 1px #e7e8e6;
+	border-top: solid 1px #e7e8e6;
+	border-left: solid 1px #e7e8e6;
+	border-bottom: solid 1px #e7e8e6;
+}
+.Top-GridView
+{
+	color: #4c607a;
+	font: 13px Arial;
+	text-align: right;
+	height: 27px;
+	background-image: url(../Img/GridView/TopGridView1.png);
+	
+	border-right: #d0d8df 1px solid;
+	border-top: #d0d8df 1px solid;
+	border-left: #d0d8df 1px solid;
+}
+.Top-GridView a
+{
+	color: #4c607a;
+	font: 13px Arial;
+	text-align: center;
+	text-decoration: none;
+	height: 27px;
+}
+.Header-GridView
+{
+	text-align: center;
+	color: White;
+	height: 30px;
+	background-image: url(../Img/GridView/HeadGridView.png);
+	border: solid 1px #d0d8df;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.Header-GridView_Alone
+{
+	text-align: center;
+	color: White;
+	height: 25px;
+	
+	border-top: solid 1px #d0d8df;
+	border-bottom: solid 1px #d0d8df;
+	border-right: solid 1px #d0d8df;
+	font-size:13px;
+	font-weight:bold;
+	float:left;
+	padding-top:10px;
+}
+
+.ImageHeader
+{
+}
+.Item-GridView
+{
+	font: 13px Arial;
+	text-align: left;
+	height: 25px;
+	background-color: White;
+	border: solid 1px #d0d8df;
+	padding:5px;
+	color: #424242;
+}
+.Item-GridView a
+{
+	text-decoration: none;
+	color: #424242;
+	padding:5px;
+}
+.Alternating-GridView
+{
+	font: 13px Arial;
+	text-align: left;
+	height: 25px;
+	background-color: #e9f5ff;
+	border: solid 1px #d0d8df;
+}
+.Alternating-GridView a
+{
+	text-decoration: none;
+	color: Navy;
+	padding:5px;
+}
+.Pages-GridView
+{
+	color: Navy;
+	font: 12px "segoe ui" ,arial,sans-serif;
+	text-align: left;
+	height: 25px;
+	background-color: #f1f5fb;
+}
+
+#tbl_linh {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+    #tbl_linh tr td {
+        border: 1px solid #dfdfdf;
+    }
+    #tbl_linh #tbl_linh_header {
+        background-color: #E7E7E7;
+        text-align: center;
+        font-weight: bold;
+    }

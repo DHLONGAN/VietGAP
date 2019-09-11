@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDD5BBBE-A7C2-4DF5-B8F1-3FFE2EFE0873}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TNLibraryBook</RootNamespace>
+    <AssemblyName>TNLibraryBook</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckAssessment_Data.cs" />
+    <Compile Include="CheckAssessment_Info.cs" />
+    <Compile Include="CheckEquipment_Data.cs" />
+    <Compile Include="CheckEquipment_Info.cs" />
+    <Compile Include="Companie_Info.cs" />
+    <Compile Include="All_Data.cs" />
+    <Compile Include="CompostingOrganic_Data.cs" />
+    <Compile Include="CompostingOrganic_Info.cs" />
+    <Compile Include="Cooperative_Data.cs" />
+    <Compile Include="Cooperative_Info.cs" />
+    <Compile Include="Member_Info.cs" />
+    <Compile Include="Report_Data.cs" />
+    <Compile Include="FertilizerOrganic_Data.cs" />
+    <Compile Include="FertilizerOrganic_Info.cs" />
+    <Compile Include="Fertilizer_Buy_Data.cs" />
+    <Compile Include="Fertilizer_Buy_Info.cs" />
+    <Compile Include="Fertilizer_Use_Data.cs" />
+    <Compile Include="Fertilizer_Use_Info.cs" />
+    <Compile Include="HandlingPackaging_Data.cs" />
+    <Compile Include="HandlingPackaging_Info.cs" />
+    <Compile Include="HarvestedForSale_Data.cs" />
+    <Compile Include="HarvestedForSale_Info.cs" />
+    <Compile Include="Inventory_Data.cs" />
+    <Compile Include="Inventory_Info.cs" />
+    <Compile Include="Inventory_Type_Data.cs" />
+    <Compile Include="Inventory_Type_Info.cs" />
+    <Compile Include="LandUse_Data.cs" />
+    <Compile Include="LandUse_Info.cs" />
+    <Compile Include="Pesticide_Buy_Data.cs" />
+    <Compile Include="Pesticide_Buy_Info.cs" />
+    <Compile Include="Pesticide_Info.cs" />
+    <Compile Include="Pesticide_Use_Data.cs" />
+    <Compile Include="Pesticide_Use_Info.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeedProcess_Data.cs" />
+    <Compile Include="SeedProces_Info.cs" />
+    <Compile Include="Seeds_Companie_Info.cs" />
+    <Compile Include="Seed_Info.cs" />
+    <Compile Include="TimeLimit_Cooperative_Data.cs" />
+    <Compile Include="TimeLimit_Cooperative_Info.cs" />
+    <Compile Include="Unit_Info.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\TNConfig\TNConfig.csproj">
+      <Project>{DFF061E9-230B-46B7-BCAD-E342E40F8177}</Project>
+      <Name>TNConfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

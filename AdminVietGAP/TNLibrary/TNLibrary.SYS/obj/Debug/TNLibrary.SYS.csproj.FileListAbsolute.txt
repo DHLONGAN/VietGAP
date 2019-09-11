@@ -1,0 +1,122 @@
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\Language.xml
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+F:\HHT\Customers\Univer BD\HHT\ERP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\Language.xml
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+C:\HHT\ERP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+F:\HHT\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+F:\HHT\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+F:\HHT\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+F:\HHT\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+F:\HHT\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.Cache
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+F:\HHT\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Debug\TNConfig.dll
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+E:\THAI GROUP\OMEGA\Software\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.read.1.tlog
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.write.1.tlog
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNDateTimePicker.resources
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNGridView.resources
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNMonthCalerdar.resources
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Forms.TNTreeView.resources
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.read.1.tlog
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\GenerateResource.write.1.tlog
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csprojResolveAssemblyReference.cache
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.Cache
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\LanguageVN.xml
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNLibrary.SYS.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.Properties.Resources.resources
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.GenerateResource.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.SYS\obj\Debug\TNLibrary.SYS.pdb

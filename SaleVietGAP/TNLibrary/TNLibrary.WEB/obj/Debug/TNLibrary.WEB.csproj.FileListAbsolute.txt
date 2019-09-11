@@ -1,0 +1,37 @@
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.WEB\obj\Debug\ResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.csprojResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.WEB\obj\Debug\ResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNLibrary.WEB.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.WEB\obj\Debug\TNLibrary.WEB.pdb

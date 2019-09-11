@@ -1,0 +1,7 @@
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\bin\Release\TNLibrary.WEB.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\bin\Release\TNLibrary.WEB.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\bin\Release\TNConfig.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\bin\Release\TNConfig.pdb
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\obj\Release\ResolveAssemblyReference.cache
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\obj\Release\TNLibrary.WEB.dll
+E:\TriVietTEK\Products2011\TNLibrary\TNLibrary.WEB\obj\Release\TNLibrary.WEB.pdb

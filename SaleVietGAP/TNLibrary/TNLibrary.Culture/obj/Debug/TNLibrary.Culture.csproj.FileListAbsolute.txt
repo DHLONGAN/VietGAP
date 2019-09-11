@@ -1,0 +1,28 @@
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.dll
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.pdb
+E:\Workspace\VietGAP\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojResolveAssemblyReference.cache
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojResolveAssemblyReference.cache

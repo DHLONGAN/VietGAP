@@ -1,0 +1,1242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65542D9A-EAF5-4C4F-BC01-DCF540238673}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Management</RootNamespace>
+    <AssemblyName>Management</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\dll\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\..\..\..\Google Drive\Projects\WebBasic\TN_Web\bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax.aspx" />
+    <Content Include="Categories\CertifiedOrganization.aspx" />
+    <Content Include="Categories\CertifiedOrganization_Edit.aspx" />
+    <Content Include="Categories\Common.aspx" />
+    <Content Include="Categories\Common_Edit.aspx" />
+    <Content Include="Categories\Companies.aspx" />
+    <Content Include="Categories\Companies_Purchase_Edit.aspx" />
+    <Content Include="Categories\Companie_Edit.aspx" />
+    <Content Include="Categories\Default.aspx" />
+    <Content Include="Categories\District.aspx" />
+    <Content Include="Categories\District_Edit.aspx" />
+    <Content Include="Categories\Environments.aspx" />
+    <Content Include="Categories\Environments_Edit.aspx" />
+    <Content Include="Categories\Equipment.aspx" />
+    <Content Include="Categories\Equipment_Edit.aspx" />
+    <Content Include="Categories\Error.aspx" />
+    <Content Include="Categories\Fertilizer.aspx" />
+    <Content Include="Categories\Fertilizers_Cooperative.aspx" />
+    <Content Include="Categories\Fertilizers_Cooperative_Edit.aspx" />
+    <Content Include="Categories\Fertilizer_Edit.aspx" />
+    <Content Include="Categories\Pesticide.aspx" />
+    <Content Include="Categories\Pesticide_Cooperative_Edit.aspx" />
+    <Content Include="Categories\Pesticide_Edit.aspx" />
+    <Content Include="Categories\Pollution.aspx" />
+    <Content Include="Categories\Pollution_Edit.aspx" />
+    <Content Include="Categories\Companies_Purchase.aspx" />
+    <Content Include="Categories\Pesticide_Cooperative.aspx" />
+    <Content Include="Categories\ProvincesCities.aspx" />
+    <Content Include="Categories\ProvincesCities_Edit.aspx" />
+    <Content Include="Categories\Seeds.aspx" />
+    <Content Include="Categories\Seeds_Categories.aspx" />
+    <Content Include="Categories\Seeds_Categories_Edit.aspx" />
+    <Content Include="Categories\Seeds_Edit.aspx" />
+    <Content Include="Categories\Seed_Cooperative.aspx" />
+    <Content Include="Categories\Seed_Cooperative_Edit.aspx" />
+    <Content Include="Categories\Ward.aspx" />
+    <Content Include="Categories\Ward_Edit.aspx" />
+    <Content Include="CSS\bootstrap-datepicker3.css" />
+    <Content Include="CSS\bt.css" />
+    <Content Include="CSS\custom.css" />
+    <Content Include="CSS\Fields.css" />
+    <Content Include="CSS\font-awesome.min.css" />
+    <Content Include="CSS\GridView.css" />
+    <Content Include="CSS\jquery-ui.css" />
+    <Content Include="CSS\Main.css" />
+    <Content Include="CSS\responsive-calendar.css" />
+    <Content Include="Culture\Accident.aspx" />
+    <Content Include="Culture\Accident_Edit.aspx" />
+    <Content Include="Culture\AddSale.aspx" />
+    <Content Include="Culture\Assessment.aspx" />
+    <Content Include="Culture\Assessment_Edit.aspx" />
+    <Content Include="Culture\CheckAssessment.aspx" />
+    <Content Include="Culture\CheckEquipment.aspx" />
+    <Content Include="Culture\CheckEquipment_Edit.aspx" />
+    <Content Include="Culture\CompostingOrganic.aspx" />
+    <Content Include="Culture\CompostingOrganic_Edit.aspx" />
+    <Content Include="Culture\CooperativePurchasing.aspx" />
+    <Content Include="Culture\CooperativePurchasing_Other.aspx" />
+    <Content Include="Culture\CooperativePurchasing_Other_Edit.aspx" />
+    <Content Include="Culture\CooperativeSale.aspx" />
+    <Content Include="Culture\CooperativeSale_Edit.aspx" />
+    <Content Include="Culture\Default.aspx" />
+    <Content Include="Culture\EditSale.aspx" />
+    <Content Include="Culture\Error.aspx" />
+    <Content Include="Culture\Fertilizer_Buy.aspx" />
+    <Content Include="Culture\Fertilizer_Buy_Edit.aspx" />
+    <Content Include="Culture\Fertilizer_Use.aspx" />
+    <Content Include="Culture\Fertilizer_Use_Edit.aspx" />
+    <Content Include="Culture\ForSale.aspx" />
+    <Content Include="Culture\ForSale_Edit.aspx" />
+    <Content Include="Culture\HandlingPackaging.aspx" />
+    <Content Include="Culture\HandlingPackaging_Edit.aspx" />
+    <Content Include="Culture\HarvestedForSale.aspx" />
+    <Content Include="Culture\HarvestedForSale_Edit.aspx" />
+    <Content Include="Culture\Harvests.aspx" />
+    <Content Include="Culture\Harvests_Edit.aspx" />
+    <Content Include="Culture\History.aspx" />
+    <Content Include="Culture\Inventory.aspx" />
+    <Content Include="Culture\Inventory_Edit.aspx" />
+    <Content Include="Culture\LandUse.aspx" />
+    <Content Include="Culture\LandUse_Edit.aspx" />
+    <Content Include="Culture\ListSale.aspx" />
+    <Content Include="Culture\Pesticide_Buy.aspx" />
+    <Content Include="Culture\Pesticide_Buy_Edit.aspx" />
+    <Content Include="Culture\Pesticide_Use.aspx" />
+    <Content Include="Culture\Pesticide_Use_Edit.aspx" />
+    <Content Include="Culture\PostharvestHandling.aspx" />
+    <Content Include="Culture\PostharvestHandling_Edit.aspx" />
+    <Content Include="Culture\ProcessEnvironmental_Edit.aspx" />
+    <Content Include="Culture\SeedProcess.aspx" />
+    <Content Include="Culture\SeedProcess_Edit.aspx" />
+    <Content Include="Culture\Soiltreatment.aspx" />
+    <Content Include="Culture\Soiltreatment_Edit.aspx" />
+    <Content Include="Culture\Training.aspx" />
+    <Content Include="Culture\Training_Edit.aspx" />
+    <Content Include="Fields\MapsCoop.aspx" />
+    <Content Include="Img\bg-row-left.png" />
+    <Content Include="Img\bg-row-right.png" />
+    <Content Include="Img\bg-row.png" />
+    <Content Include="Img\bg-row1.png" />
+    <Content Include="Img\bg.png" />
+    <Content Include="Img\Book\danh-sach-cay-trong.png" />
+    <Content Include="Img\Book\kiemtra-thietbi_icon.png" />
+    <Content Include="Img\Book\mua-phan-bon.png" />
+    <Content Include="Img\Book\mua-thuoc-bvtv.png" />
+    <Content Include="Img\Book\quan-ly-dat.png" />
+    <Content Include="Img\Book\su-dung-phan-bon.png" />
+    <Content Include="Img\Book\su-dung-thuoc-bvtv.png" />
+    <Content Include="Img\Book\thu-hoach-xuat-ban.png" />
+    <Content Include="Img\Book\xu-ly-chat-thai.png" />
+    <Content Include="Img\Book\xu-ly-giong.png" />
+    <Content Include="Img\br.png" />
+    <Content Include="Img\br2.png" />
+    <Content Include="Img\bt-addnew.jpg" />
+    <Content Include="Img\bt-del.png" />
+    <Content Include="Img\bt-detail.png" />
+    <Content Include="Img\bt-edit.png" />
+    <Content Include="Img\bt-view.png" />
+    <Content Include="Img\bt_save.png" />
+    <Content Include="Img\icon\QUAN-LY-DAT-GIONG.png" />
+    <Content Include="Img\icon\QUAN-LY-SAN-XUAT.png" />
+    <Content Include="Img\icon\THU-HOACH-XUAT-BAN.png" />
+    <Content Include="Img\ic_mylocation.png" />
+    <Content Include="Img\login-bg_.png" />
+    <Content Include="JS\jquery-2.1.0.min.js" />
+    <Content Include="Lib\bootstrap\css\bootstrap-select.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap-select.min.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap.css" />
+    <Content Include="Lib\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Lib\bootstrap\js\bootstrap-select.js" />
+    <Content Include="Lib\bootstrap\js\bootstrap-select.min.js" />
+    <Content Include="Lib\bootstrap\js\bootstrap.js" />
+    <Content Include="Lib\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Lib\bootstrap\js\npm.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Fields\Cooperative_Detail.aspx" />
+    <Content Include="Fields\Cooperative_Edit.aspx" />
+    <Content Include="Fields\Default.aspx" />
+    <Content Include="Fields\Maps.aspx" />
+    <Content Include="Fields\Member_Detail.aspx" />
+    <Content Include="Fields\xoa.aspx" />
+    <Content Include="Img\bt-addnew.png" />
+    <Content Include="Img\bt-addnewb.png" />
+    <Content Include="Img\front\bt-drop-01-old.png" />
+    <Content Include="Img\front\bt-drop-02.png" />
+    <Content Include="Img\front\bt-drop-03.png" />
+    <Content Include="Img\icon_system.png" />
+    <Content Include="Img\Tree\Dragon.png" />
+    <Content Include="Img\Tree\Vegetables.png" />
+    <Content Include="JS\geoxml3.js" />
+    <Content Include="JS\jquery-1.7.1.min.js" />
+    <Content Include="JS\jquery-1.9.1.js" />
+    <Content Include="JS\jquery-ui.js" />
+    <Content Include="JS\jquery.confirm.js" />
+    <Content Include="JS\jquery.easy-confirm-dialog.js" />
+    <Content Include="JS\shapesSave.js" />
+    <Content Include="JS\Test.js" />
+    <Content Include="Report\getAreaQuantity.aspx" />
+    <Content Include="Categories\CooperativeVentures.aspx" />
+    <Content Include="Categories\CooperativeVenturesAdd.aspx" />
+    <Content Include="Categories\CooperativeVentures_Edit.aspx" />
+    <Content Include="Report\getFertilizer.aspx" />
+    <Content Include="Report\getPesticide.aspx" />
+    <Content Include="Sys\Error.aspx" />
+    <Content Include="Sys\Lands\Default.aspx" />
+    <Content Include="Lib\calendar\jquery-1.10.2.js" />
+    <Content Include="Lib\calendar\jquery-ui.css" />
+    <Content Include="Lib\calendar\jquery-ui.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Report\Default.aspx" />
+    <Content Include="Sys\Default.aspx" />
+    <Content Include="Categories\ListCooperative.aspx" />
+    <Content Include="Categories\ListCooperative_Edit.aspx" />
+    <Content Include="Sys\ListUser.aspx" />
+    <Content Include="Sys\ListUser_Edit.aspx" />
+    <Content Include="Sys\ProcessPlant.aspx" />
+    <Content Include="Sys\ProcessPlantDetail.aspx" />
+    <Content Include="Sys\ProcessPlant_Detail.aspx" />
+    <Content Include="Sys\ProcessPlant_Edit.aspx" />
+    <Content Include="Sys\ProcessPlant_List.aspx" />
+    <Content Include="Sys\Roles.aspx" />
+    <Content Include="Sys\Role_Edit.aspx" />
+    <Content Include="Sys\TimeLimit_Cooperative.aspx" />
+    <Content Include="Sys\TimeLimit_Cooperative_Edit.aspx" />
+    <Content Include="Sys\User.aspx" />
+    <Content Include="Sys\Users_Roles.aspx" />
+    <Content Include="Sys\Users_Roles_Edit.aspx" />
+    <Content Include="Sys\User_Edit.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajax.aspx.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax.aspx.designer.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\CertifiedOrganization.aspx.cs">
+      <DependentUpon>CertifiedOrganization.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\CertifiedOrganization.aspx.designer.cs">
+      <DependentUpon>CertifiedOrganization.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\CertifiedOrganization_Edit.aspx.cs">
+      <DependentUpon>CertifiedOrganization_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\CertifiedOrganization_Edit.aspx.designer.cs">
+      <DependentUpon>CertifiedOrganization_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Common.aspx.cs">
+      <DependentUpon>Common.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Common.aspx.designer.cs">
+      <DependentUpon>Common.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Common_Edit.aspx.cs">
+      <DependentUpon>Common_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Common_Edit.aspx.designer.cs">
+      <DependentUpon>Common_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Companies.aspx.cs">
+      <DependentUpon>Companies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Companies.aspx.designer.cs">
+      <DependentUpon>Companies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Companies_Purchase_Edit.aspx.cs">
+      <DependentUpon>Companies_Purchase_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Companies_Purchase_Edit.aspx.designer.cs">
+      <DependentUpon>Companies_Purchase_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Companie_Edit.aspx.cs">
+      <DependentUpon>Companie_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Companie_Edit.aspx.designer.cs">
+      <DependentUpon>Companie_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\District.aspx.cs">
+      <DependentUpon>District.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\District.aspx.designer.cs">
+      <DependentUpon>District.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\District_Edit.aspx.cs">
+      <DependentUpon>District_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\District_Edit.aspx.designer.cs">
+      <DependentUpon>District_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Environments.aspx.cs">
+      <DependentUpon>Environments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Environments.aspx.designer.cs">
+      <DependentUpon>Environments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Environments_Edit.aspx.cs">
+      <DependentUpon>Environments_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Environments_Edit.aspx.designer.cs">
+      <DependentUpon>Environments_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Equipment.aspx.cs">
+      <DependentUpon>Equipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Equipment.aspx.designer.cs">
+      <DependentUpon>Equipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Equipment_Edit.aspx.cs">
+      <DependentUpon>Equipment_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Equipment_Edit.aspx.designer.cs">
+      <DependentUpon>Equipment_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Fertilizer.aspx.cs">
+      <DependentUpon>Fertilizer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Fertilizer.aspx.designer.cs">
+      <DependentUpon>Fertilizer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Fertilizers_Cooperative.aspx.cs">
+      <DependentUpon>Fertilizers_Cooperative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Fertilizers_Cooperative.aspx.designer.cs">
+      <DependentUpon>Fertilizers_Cooperative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Fertilizers_Cooperative_Edit.aspx.cs">
+      <DependentUpon>Fertilizers_Cooperative_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Fertilizers_Cooperative_Edit.aspx.designer.cs">
+      <DependentUpon>Fertilizers_Cooperative_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Fertilizer_Edit.aspx.cs">
+      <DependentUpon>Fertilizer_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Fertilizer_Edit.aspx.designer.cs">
+      <DependentUpon>Fertilizer_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Pesticide.aspx.cs">
+      <DependentUpon>Pesticide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Pesticide.aspx.designer.cs">
+      <DependentUpon>Pesticide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Pesticide_Cooperative_Edit.aspx.cs">
+      <DependentUpon>Pesticide_Cooperative_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Pesticide_Cooperative_Edit.aspx.designer.cs">
+      <DependentUpon>Pesticide_Cooperative_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Pesticide_Edit.aspx.cs">
+      <DependentUpon>Pesticide_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Pesticide_Edit.aspx.designer.cs">
+      <DependentUpon>Pesticide_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Pollution.aspx.cs">
+      <DependentUpon>Pollution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Pollution.aspx.designer.cs">
+      <DependentUpon>Pollution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Pollution_Edit.aspx.cs">
+      <DependentUpon>Pollution_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Pollution_Edit.aspx.designer.cs">
+      <DependentUpon>Pollution_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Companies_Purchase.aspx.cs">
+      <DependentUpon>Companies_Purchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Companies_Purchase.aspx.designer.cs">
+      <DependentUpon>Companies_Purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Pesticide_Cooperative.aspx.cs">
+      <DependentUpon>Pesticide_Cooperative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Pesticide_Cooperative.aspx.designer.cs">
+      <DependentUpon>Pesticide_Cooperative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\ProvincesCities.aspx.cs">
+      <DependentUpon>ProvincesCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\ProvincesCities.aspx.designer.cs">
+      <DependentUpon>ProvincesCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\ProvincesCities_Edit.aspx.cs">
+      <DependentUpon>ProvincesCities_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\ProvincesCities_Edit.aspx.designer.cs">
+      <DependentUpon>ProvincesCities_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Seeds.aspx.cs">
+      <DependentUpon>Seeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Seeds.aspx.designer.cs">
+      <DependentUpon>Seeds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Seeds_Categories.aspx.cs">
+      <DependentUpon>Seeds_Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Seeds_Categories.aspx.designer.cs">
+      <DependentUpon>Seeds_Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Seeds_Categories_Edit.aspx.cs">
+      <DependentUpon>Seeds_Categories_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Seeds_Categories_Edit.aspx.designer.cs">
+      <DependentUpon>Seeds_Categories_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Seeds_Edit.aspx.cs">
+      <DependentUpon>Seeds_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Seeds_Edit.aspx.designer.cs">
+      <DependentUpon>Seeds_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Seed_Cooperative.aspx.cs">
+      <DependentUpon>Seed_Cooperative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Seed_Cooperative.aspx.designer.cs">
+      <DependentUpon>Seed_Cooperative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Seed_Cooperative_Edit.aspx.cs">
+      <DependentUpon>Seed_Cooperative_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Seed_Cooperative_Edit.aspx.designer.cs">
+      <DependentUpon>Seed_Cooperative_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Ward.aspx.cs">
+      <DependentUpon>Ward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Ward.aspx.designer.cs">
+      <DependentUpon>Ward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Ward_Edit.aspx.cs">
+      <DependentUpon>Ward_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\Ward_Edit.aspx.designer.cs">
+      <DependentUpon>Ward_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Accident.aspx.cs">
+      <DependentUpon>Accident.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Accident.aspx.designer.cs">
+      <DependentUpon>Accident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Accident_Edit.aspx.cs">
+      <DependentUpon>Accident_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Accident_Edit.aspx.designer.cs">
+      <DependentUpon>Accident_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\AddSale.aspx.cs">
+      <DependentUpon>AddSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\AddSale.aspx.designer.cs">
+      <DependentUpon>AddSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Assessment.aspx.cs">
+      <DependentUpon>Assessment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Assessment.aspx.designer.cs">
+      <DependentUpon>Assessment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Assessment_Edit.aspx.cs">
+      <DependentUpon>Assessment_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Assessment_Edit.aspx.designer.cs">
+      <DependentUpon>Assessment_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CheckAssessment.aspx.cs">
+      <DependentUpon>CheckAssessment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CheckAssessment.aspx.designer.cs">
+      <DependentUpon>CheckAssessment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CheckEquipment.aspx.cs">
+      <DependentUpon>CheckEquipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CheckEquipment.aspx.designer.cs">
+      <DependentUpon>CheckEquipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CheckEquipment_Edit.aspx.cs">
+      <DependentUpon>CheckEquipment_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CheckEquipment_Edit.aspx.designer.cs">
+      <DependentUpon>CheckEquipment_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CompostingOrganic.aspx.cs">
+      <DependentUpon>CompostingOrganic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CompostingOrganic.aspx.designer.cs">
+      <DependentUpon>CompostingOrganic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CompostingOrganic_Edit.aspx.cs">
+      <DependentUpon>CompostingOrganic_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CompostingOrganic_Edit.aspx.designer.cs">
+      <DependentUpon>CompostingOrganic_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CooperativePurchasing.aspx.cs">
+      <DependentUpon>CooperativePurchasing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CooperativePurchasing.aspx.designer.cs">
+      <DependentUpon>CooperativePurchasing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CooperativePurchasing_Other.aspx.cs">
+      <DependentUpon>CooperativePurchasing_Other.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CooperativePurchasing_Other.aspx.designer.cs">
+      <DependentUpon>CooperativePurchasing_Other.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CooperativePurchasing_Other_Edit.aspx.cs">
+      <DependentUpon>CooperativePurchasing_Other_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CooperativePurchasing_Other_Edit.aspx.designer.cs">
+      <DependentUpon>CooperativePurchasing_Other_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CooperativeSale.aspx.cs">
+      <DependentUpon>CooperativeSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CooperativeSale.aspx.designer.cs">
+      <DependentUpon>CooperativeSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\CooperativeSale_Edit.aspx.cs">
+      <DependentUpon>CooperativeSale_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\CooperativeSale_Edit.aspx.designer.cs">
+      <DependentUpon>CooperativeSale_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\EditSale.aspx.cs">
+      <DependentUpon>EditSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\EditSale.aspx.designer.cs">
+      <DependentUpon>EditSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Buy.aspx.cs">
+      <DependentUpon>Fertilizer_Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Buy.aspx.designer.cs">
+      <DependentUpon>Fertilizer_Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Buy_Edit.aspx.cs">
+      <DependentUpon>Fertilizer_Buy_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Buy_Edit.aspx.designer.cs">
+      <DependentUpon>Fertilizer_Buy_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Use.aspx.cs">
+      <DependentUpon>Fertilizer_Use.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Use.aspx.designer.cs">
+      <DependentUpon>Fertilizer_Use.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Use_Edit.aspx.cs">
+      <DependentUpon>Fertilizer_Use_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Fertilizer_Use_Edit.aspx.designer.cs">
+      <DependentUpon>Fertilizer_Use_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\ForSale.aspx.cs">
+      <DependentUpon>ForSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\ForSale.aspx.designer.cs">
+      <DependentUpon>ForSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\ForSale_Edit.aspx.cs">
+      <DependentUpon>ForSale_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\ForSale_Edit.aspx.designer.cs">
+      <DependentUpon>ForSale_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\HandlingPackaging.aspx.cs">
+      <DependentUpon>HandlingPackaging.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\HandlingPackaging.aspx.designer.cs">
+      <DependentUpon>HandlingPackaging.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\HandlingPackaging_Edit.aspx.cs">
+      <DependentUpon>HandlingPackaging_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\HandlingPackaging_Edit.aspx.designer.cs">
+      <DependentUpon>HandlingPackaging_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\HarvestedForSale.aspx.cs">
+      <DependentUpon>HarvestedForSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\HarvestedForSale.aspx.designer.cs">
+      <DependentUpon>HarvestedForSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\HarvestedForSale_Edit.aspx.cs">
+      <DependentUpon>HarvestedForSale_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\HarvestedForSale_Edit.aspx.designer.cs">
+      <DependentUpon>HarvestedForSale_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Harvests.aspx.cs">
+      <DependentUpon>Harvests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Harvests.aspx.designer.cs">
+      <DependentUpon>Harvests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Harvests_Edit.aspx.cs">
+      <DependentUpon>Harvests_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Harvests_Edit.aspx.designer.cs">
+      <DependentUpon>Harvests_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Inventory_Edit.aspx.cs">
+      <DependentUpon>Inventory_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Inventory_Edit.aspx.designer.cs">
+      <DependentUpon>Inventory_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\LandUse.aspx.cs">
+      <DependentUpon>LandUse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\LandUse.aspx.designer.cs">
+      <DependentUpon>LandUse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\LandUse_Edit.aspx.cs">
+      <DependentUpon>LandUse_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\LandUse_Edit.aspx.designer.cs">
+      <DependentUpon>LandUse_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\ListSale.aspx.cs">
+      <DependentUpon>ListSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\ListSale.aspx.designer.cs">
+      <DependentUpon>ListSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Buy.aspx.cs">
+      <DependentUpon>Pesticide_Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Buy.aspx.designer.cs">
+      <DependentUpon>Pesticide_Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Buy_Edit.aspx.cs">
+      <DependentUpon>Pesticide_Buy_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Buy_Edit.aspx.designer.cs">
+      <DependentUpon>Pesticide_Buy_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Use.aspx.cs">
+      <DependentUpon>Pesticide_Use.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Use.aspx.designer.cs">
+      <DependentUpon>Pesticide_Use.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Use_Edit.aspx.cs">
+      <DependentUpon>Pesticide_Use_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Pesticide_Use_Edit.aspx.designer.cs">
+      <DependentUpon>Pesticide_Use_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\PostharvestHandling.aspx.cs">
+      <DependentUpon>PostharvestHandling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\PostharvestHandling.aspx.designer.cs">
+      <DependentUpon>PostharvestHandling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\PostharvestHandling_Edit.aspx.cs">
+      <DependentUpon>PostharvestHandling_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\PostharvestHandling_Edit.aspx.designer.cs">
+      <DependentUpon>PostharvestHandling_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\ProcessEnvironmental_Edit.aspx.cs">
+      <DependentUpon>ProcessEnvironmental_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\ProcessEnvironmental_Edit.aspx.designer.cs">
+      <DependentUpon>ProcessEnvironmental_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\SeedProcess.aspx.cs">
+      <DependentUpon>SeedProcess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\SeedProcess.aspx.designer.cs">
+      <DependentUpon>SeedProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\SeedProcess_Edit.aspx.cs">
+      <DependentUpon>SeedProcess_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\SeedProcess_Edit.aspx.designer.cs">
+      <DependentUpon>SeedProcess_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Soiltreatment.aspx.cs">
+      <DependentUpon>Soiltreatment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Soiltreatment.aspx.designer.cs">
+      <DependentUpon>Soiltreatment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Soiltreatment_Edit.aspx.cs">
+      <DependentUpon>Soiltreatment_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Soiltreatment_Edit.aspx.designer.cs">
+      <DependentUpon>Soiltreatment_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Training.aspx.cs">
+      <DependentUpon>Training.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Training.aspx.designer.cs">
+      <DependentUpon>Training.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Training_Edit.aspx.cs">
+      <DependentUpon>Training_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Training_Edit.aspx.designer.cs">
+      <DependentUpon>Training_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\MapsCoop.aspx.cs">
+      <DependentUpon>MapsCoop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\MapsCoop.aspx.designer.cs">
+      <DependentUpon>MapsCoop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pesticide_Cooperative_Info.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Cooperative_Detail.aspx.cs">
+      <DependentUpon>Cooperative_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\Cooperative_Detail.aspx.designer.cs">
+      <DependentUpon>Cooperative_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Cooperative_Edit.aspx.cs">
+      <DependentUpon>Cooperative_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\Cooperative_Edit.aspx.designer.cs">
+      <DependentUpon>Cooperative_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Maps.aspx.cs">
+      <DependentUpon>Maps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\Maps.aspx.designer.cs">
+      <DependentUpon>Maps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Member_Detail.aspx.cs">
+      <DependentUpon>Member_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\Member_Detail.aspx.designer.cs">
+      <DependentUpon>Member_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\xoa.aspx.cs">
+      <DependentUpon>xoa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fields\xoa.aspx.designer.cs">
+      <DependentUpon>xoa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="null.Master.cs">
+      <DependentUpon>null.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="null.Master.designer.cs">
+      <DependentUpon>null.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Report\getAreaQuantity.aspx.cs">
+      <DependentUpon>getAreaQuantity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\getAreaQuantity.aspx.designer.cs">
+      <DependentUpon>getAreaQuantity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\CooperativeVentures.aspx.cs">
+      <DependentUpon>CooperativeVentures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\CooperativeVentures.aspx.designer.cs">
+      <DependentUpon>CooperativeVentures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\CooperativeVenturesAdd.aspx.cs">
+      <DependentUpon>CooperativeVenturesAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\CooperativeVenturesAdd.aspx.designer.cs">
+      <DependentUpon>CooperativeVenturesAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\CooperativeVentures_Edit.aspx.cs">
+      <DependentUpon>CooperativeVentures_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\CooperativeVentures_Edit.aspx.designer.cs">
+      <DependentUpon>CooperativeVentures_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\getFertilizer.aspx.cs">
+      <DependentUpon>getFertilizer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\getFertilizer.aspx.designer.cs">
+      <DependentUpon>getFertilizer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\getPesticide.aspx.cs">
+      <DependentUpon>getPesticide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\getPesticide.aspx.designer.cs">
+      <DependentUpon>getPesticide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Lands\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Lands\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMain.Master.cs">
+      <DependentUpon>SiteMain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMain.Master.designer.cs">
+      <DependentUpon>SiteMain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMap.Master.cs">
+      <DependentUpon>SiteMap.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMap.Master.designer.cs">
+      <DependentUpon>SiteMap.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\ListCooperative.aspx.cs">
+      <DependentUpon>ListCooperative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\ListCooperative.aspx.designer.cs">
+      <DependentUpon>ListCooperative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\ListCooperative_Edit.aspx.cs">
+      <DependentUpon>ListCooperative_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories\ListCooperative_Edit.aspx.designer.cs">
+      <DependentUpon>ListCooperative_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ListUser.aspx.cs">
+      <DependentUpon>ListUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ListUser.aspx.designer.cs">
+      <DependentUpon>ListUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ListUser_Edit.aspx.cs">
+      <DependentUpon>ListUser_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ListUser_Edit.aspx.designer.cs">
+      <DependentUpon>ListUser_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant.aspx.cs">
+      <DependentUpon>ProcessPlant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant.aspx.designer.cs">
+      <DependentUpon>ProcessPlant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ProcessPlantDetail.aspx.cs">
+      <DependentUpon>ProcessPlantDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ProcessPlantDetail.aspx.designer.cs">
+      <DependentUpon>ProcessPlantDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant_Detail.aspx.cs">
+      <DependentUpon>ProcessPlant_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant_Detail.aspx.designer.cs">
+      <DependentUpon>ProcessPlant_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant_Edit.aspx.cs">
+      <DependentUpon>ProcessPlant_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant_Edit.aspx.designer.cs">
+      <DependentUpon>ProcessPlant_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant_List.aspx.cs">
+      <DependentUpon>ProcessPlant_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\ProcessPlant_List.aspx.designer.cs">
+      <DependentUpon>ProcessPlant_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Process_SeedProcess.cs" />
+    <Compile Include="Sys\Roles.aspx.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Roles.aspx.designer.cs">
+      <DependentUpon>Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Role_Edit.aspx.cs">
+      <DependentUpon>Role_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Role_Edit.aspx.designer.cs">
+      <DependentUpon>Role_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\TimeLimit_Cooperative.aspx.cs">
+      <DependentUpon>TimeLimit_Cooperative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\TimeLimit_Cooperative.aspx.designer.cs">
+      <DependentUpon>TimeLimit_Cooperative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\TimeLimit_Cooperative_Edit.aspx.cs">
+      <DependentUpon>TimeLimit_Cooperative_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\TimeLimit_Cooperative_Edit.aspx.designer.cs">
+      <DependentUpon>TimeLimit_Cooperative_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Users_Roles.aspx.cs">
+      <DependentUpon>Users_Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Users_Roles.aspx.designer.cs">
+      <DependentUpon>Users_Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\Users_Roles_Edit.aspx.cs">
+      <DependentUpon>Users_Roles_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\Users_Roles_Edit.aspx.designer.cs">
+      <DependentUpon>Users_Roles_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\User_Edit.aspx.cs">
+      <DependentUpon>User_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sys\User_Edit.aspx.designer.cs">
+      <DependentUpon>User_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteMain.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteMap.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\front\Thumbs.db" />
+    <None Include="Img\Thumbs.db" />
+    <None Include="Img\Tree\Thumbs.db" />
+    <None Include="Img\weeklypixels_wooden_ui_login_01.psd" />
+    <None Include="KML\HTX_TamVu.kml" />
+    <None Include="KML\HTX_PhuocHiep.kml" />
+    <None Include="KML\HTX_PhuocHoa.kml" />
+    <None Include="KML\longanmap.kml" />
+    <None Include="KML\Vegetables.kml" />
+    <None Include="KML\test.kml" />
+    <Content Include="null.Master" />
+    <None Include="Lib\bootstrap\css\bootstrap-select.css.map" />
+    <None Include="Lib\bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="Lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Lib\bootstrap\js\bootstrap-select.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TNConfig\TNConfig.csproj">
+      <Project>{DFF061E9-230B-46B7-BCAD-E342E40F8177}</Project>
+      <Name>TNConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\ReportPUL\ReportPUL2.csproj">
+      <Project>{53C9D9DC-82B4-45E1-9714-F4BAB723FA03}</Project>
+      <Name>ReportPUL2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.Categories\TNLibrary.Categories.csproj">
+      <Project>{79B8D922-B71E-4218-90E7-A90F372C28AD}</Project>
+      <Name>TNLibrary.Categories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.Culture\TNLibrary.Culture.csproj">
+      <Project>{CC36CF88-D5C0-49B2-ACBD-B79B65786180}</Project>
+      <Name>TNLibrary.Culture</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.Fields\TNLibrary.Fields.csproj">
+      <Project>{9E16A25C-3EE5-43ED-A3F3-0E1A6CBC27EC}</Project>
+      <Name>TNLibrary.Fields</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.SYS\TNLibrary.SYS.csproj">
+      <Project>{821E12E5-D3D5-4DBD-AF0A-594042CB7064}</Project>
+      <Name>TNLibrary.SYS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TNLibrary\TNLibrary.WEB\TNLibrary.WEB.csproj">
+      <Project>{A2BF5C92-EF48-4CB2-9802-08BA982B616F}</Project>
+      <Name>TNLibrary.WEB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>36574</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

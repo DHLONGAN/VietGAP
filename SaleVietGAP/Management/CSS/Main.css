@@ -1,0 +1,8 @@
+﻿body {
+	padding-top: 70px;
+	padding-bottom: 0px;
+}
+.modal-open {
+padding-right: 0px;
+overflow:auto;
+}

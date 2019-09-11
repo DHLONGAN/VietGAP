@@ -1,0 +1,105 @@
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.dll
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.pdb
+D:\DLA\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+D:\DLA\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.dll
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\LanguageVN.xml
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\Telerik.Web.UI.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\LanguageVN.xml
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\Telerik.Web.UI.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+D:\DLA\SaleGAP\TNLibrary\TNLibrary.Fields\obj\Debug\ResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\LanguageVN.xml
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\SaleGAP\TNLibrary\TNLibrary.Fields\bin\Debug\Telerik.Web.UI.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\LanguageVN.xml
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\SaleGAPNew\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\LanguageVN.xml
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+D:\DLA\Sale 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\ResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\LanguageVN.xml
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.SYS.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.WEB.pdb
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\Project_NgoLinh\VietGAP\SaleVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb

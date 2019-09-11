@@ -1,0 +1,10 @@
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\LanguageVN.xml
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\ReportPUL.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\ReportPUL.pdb
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNConfig.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNLibrary.SYS.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNConfig.pdb
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\bin\Debug\TNLibrary.SYS.pdb
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL.csprojResolveAssemblyReference.cache
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL.dll
+E:\DLA\VIETGAP\VietGAP\source\ReportPUL\obj\Debug\ReportPUL.pdb

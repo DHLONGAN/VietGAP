@@ -1,0 +1,51 @@
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.dll
+D:\DLA\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.pdb
+D:\DLA\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+D:\DLA\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.dll
+E:\Workspace\VietGAP\TNLibrary.Fields\bin\Debug\TNLibrary.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNLibrary.Fields.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Fields\obj\Debug\TNLibrary.Fields.pdb

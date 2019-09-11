@@ -1,0 +1,16 @@
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNLibrary.Search.dll
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNLibrary.Search.pdb
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNConfig.dll
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNConfig.pdb
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.dll
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.pdb
+D:\DLA\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.csprojResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNLibrary.Search.dll
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNLibrary.Search.pdb
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.dll
+D:\Project_NgoLinh\VietGAP\BookVietGAP\TNLibrary\TNLibrary.Search\obj\Debug\TNLibrary.Search.pdb

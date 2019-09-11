@@ -1,0 +1,44 @@
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.dll
+E:\Workspace\VietGAP\TNLibrary.Culture\bin\Debug\TNLibrary.pdb
+E:\Workspace\VietGAP\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\ResolveAssemblyReference.cache
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Long An University\Projects\VietGAP\Software\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.0\Version 1.0\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojResolveAssemblyReference.cache
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\obj\Debug\ResolveAssemblyReference.cache
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+D:\DLA\Version 1.4\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb
+E:\Workspace\VietGAP\Version 1.5\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojResolveAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\bin\Debug\TNLibrary.Culture.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\bin\Debug\TNConfig.pdb
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csprojAssemblyReference.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csproj.CoreCompileInputs.cache
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.csproj.CopyComplete
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.dll
+D:\Project_NgoLinh\VietGAP\AdminVietGAP\TNLibrary\TNLibrary.Culture\obj\Debug\TNLibrary.Culture.pdb

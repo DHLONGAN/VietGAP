@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteCoop.master.cs" Inherits="Management.SiteCoop" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="icon" href="/Img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="/CSS/Main.css" rel="stylesheet" type="text/css" />
+    <link href="/Lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/CSS/responsive-calendar.css" rel="stylesheet" type="text/css" />
+    <script src="/Lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/JS/custom.js" type="text/javascript"></script>
+    <script src="/JS/responsive-calendar.min.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('ul.nav > li').click(function (e) {
+                $('ul.nav > li').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+        $(document).ready(function () {
+            $("#Orderbtn").click(function () {
+                if (!CheckText("Ordername", 6)) { return false; }
+                if (!CheckText("Orderphone", 10)) { return false; }
+                if (!CheckText("Orderemail",7)) { return false; }
+                if (!CheckText("Ordermessage",2)) { return false; }
+                alert("OK");
+            });
+            $("#Ordername").on('input', (function (e) {
+                if (!CheckText("Ordername", 6)) {
+                    return false;
+                }
+            }));
+            $("#Orderphone").on('input', (function (e) {
+                CheckNum("Orderphone");
+                if (!CheckText("Orderphone", 10)) {
+                    return false;
+                }
+            }));
+            $("#Orderemail").on('input', (function (e) {
+
+                if (!CheckText("Orderemail", 7)) {
+                    return false;
+                }
+            }));
+            $("#Ordermessage").on('input', (function (e) {
+                if (!CheckText("Ordermessage", 2)) {
+                    return false;
+                }
+            }));
+        });
+        
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!--HEADER-->
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="background: linear-gradient(to bottom, #ffffff 0%, #E0E0E0 100%);">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a style="margin: 15px;" title="Trang chủ" href="../trangchu"><img style="max-height: 50px;" src="../Img/logo_bnc.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#product">Sản phẩm</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+            <%--<li><a href="#Order" data-toggle="modal">Đặt hàng</a></li>--%>
+          </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--BODY-->
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer well" style="margin-bottom: 0px;">
+      <div class="container">
+        <p class="text-muted">Copyright © 2014-2015. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <div class="modal fade" id="Order" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal" role="form">
+                <div class="modal-header">
+                    <h4>
+                        Đặt Hàng<h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group has-feedback">
+                        <label for="contact-name" class="col-sm-2 control-label">
+                            Họ và tên</label>
+                        <div class="col-sm-10 has-error">
+                            <input type="text" class="form-control" id="Ordername" placeholder="Nguyễn Văn A">
+                            <span id="sp-Ordername"></span>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="contact-name" class="col-sm-2 control-label">
+                            Điện thoại
+                        </label>
+                        <div class="col-sm-10 has-error">
+                            <input type="text" class="form-control" id="Orderphone" placeholder="0987654321">
+                            <span id="sp-Orderphone"></span>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="contact-email" class="col-sm-2 control-label">
+                            Email</label>
+                        <div class="col-sm-10 has-error">
+                            <input type="email" class="form-control" id="Orderemail" placeholder="example@gmail.com">
+                            <span id="sp-Orderemail"></span>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="contact-message" class="col-sm-2 control-label">
+                            Ghi chú</label>
+                        <div class="col-sm-10 has-error">
+                            <textarea class="form-control" id="Ordermessage" rows="4"></textarea>
+                            <span id="sp-Ordermessage"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">Đóng</a>
+                    <button type="button" class="btn btn-primary" id="Orderbtn">
+                        Gửi</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
